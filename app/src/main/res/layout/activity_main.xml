@@ -1,5 +1,5 @@
 ?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,15 +11,19 @@
         android:id="@+id/noknok"
         android:layout_width="192dp"
         android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="200dp"
+        android:foregroundGravity="top"
         android:gravity="top"
         android:text="@string/app_name"
-        android:textAppearance="@style/noknok"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="224dp" />
+        android:textAppearance="@style/noknok" />
 
     <View
         android:layout_width="189dp"
         android:layout_height="37dp"
         android:layout_marginLeft="113dp"
-        android:layout_marginTop="533dp"/>
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginTop="533dp"
+        android:background="@drawable/ic_rectangle48" />
+</RelativeLayout>
