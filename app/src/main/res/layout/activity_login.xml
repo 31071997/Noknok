@@ -48,4 +48,15 @@
         android:layout_marginLeft="72dp"
         android:layout_marginTop="79dp"
         android:background=""/>
+    <TextView
+        android:layout_width="93dp"
+        android:layout_height="16dp"
+        android:id="@+id/facebook_lo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="77dp"
+        android:layout_marginLeft="93dp"
+        android:text="@string/facebook_lo"
+        android:textAppearance="@style/facebook_lo"
+        android:gravity="top"/>
 </RelativeLayout>

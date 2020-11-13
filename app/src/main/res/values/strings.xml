@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Noknok</string>
     <string name="login">Login</string>
+    <string name="facebook_lo">facebook  login</string>
 </resources>
