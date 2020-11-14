@@ -13,9 +13,9 @@
         android:layout_width="55dp"
         android:layout_height="24dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="102dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="12dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="-2dp"
         android:fontFamily="@font/RobotoMono"
         android:gravity="top"
         android:lineHeight="24sp"
@@ -29,16 +29,19 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="34dp"
         android:layout_marginTop="55.19dp"
-        android:background="@drawable/ic_line_16"
-        />
+        android:background="@drawable/ic_line_16"/>
+
     <View
-        android:layout_width="174dp"
-        android:layout_height="30dp"
-        android:id="@+id/rectangle48"
-        android:layout_marginLeft="44dp"
+        android:id="@+id/rectangle43"
+        android:layout_width="139dp"
+        android:layout_height="27dp"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:background="@drawable/ic_rectangle48"/>
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="77dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_rectangle_43" />
+
     <View
         android:layout_width="14dp"
         android:layout_height="14dp"
@@ -47,7 +50,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="72dp"
         android:layout_marginTop="79dp"
-        android:background=""/>
+        android:background="@drawable/icons8_facebook_30px_1_1"/>
     <TextView
         android:layout_width="93dp"
         android:layout_height="16dp"
@@ -58,5 +61,6 @@
         android:layout_marginLeft="93dp"
         android:text="@string/facebook_lo"
         android:textAppearance="@style/facebook_lo"
+        android:fontFamily="@font/RobotoRegular"
         android:gravity="top"/>
 </RelativeLayout>
