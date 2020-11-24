@@ -129,5 +129,55 @@
         android:text="@string/forget_your"
         android:textAppearance="@style/forget_your"
         android:lineHeight="12sp"/>
+    <RelativeLayout
+        android:layout_width="139dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp">
+        <View
+            android:layout_width="139dp"
+            android:layout_height="29dp"
+            android:id="@+id/rectangle48"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_rectangle48"/>
 
+        <TextView
+            android:id="@id/login_2"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="44dp"
+            android:fontFamily="@font/RobotoRegular"
+            android:lineHeight="19sp"
+            android:text="@string/login_2"
+            android:textAppearance="@style/login_2"
+            android:textFontWeight="500"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="26dp">
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="12dp"
+            android:id="@+id/dont_have_a"
+            android:fontFamily="@font/RobotoRegular"
+            android:textFontWeight="400"
+            android:lineHeight="12sp"
+            android:text="@string/dont_have_a"
+            android:textAppearance="@style/dont_have_a"
+            />
+        <TextView
+            android:layout_width="62dp"
+            android:layout_height="13dp"
+            android:id="@+id/sign_up_here"
+            android:fontFamily="@font/RobotoRegular"
+            android:textFontWeight="500"
+            android:layout_marginLeft="150dp"
+            android:lineHeight="13sp"
+            android:text="@string/sign_up_here"
+            android:textAppearance="@style/sign_up_here"
+            />
+    </RelativeLayout>
 </LinearLayout>
