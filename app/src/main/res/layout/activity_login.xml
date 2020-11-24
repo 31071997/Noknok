@@ -46,9 +46,10 @@
             android:layout_width="14dp"
             android:layout_height="14dp"
             android:id="@+id/icons8_face"
-            android:layout_marginTop="41dp"
+            android:layout_marginTop="44dp"
             android:layout_marginLeft="12dp"
-            android:src="@drawable/ic_icons8_facebook_30px_1_1"/>
+            android:background="@drawable/ic_facebook"
+            />
         <TextView
             android:layout_width="93dp"
             android:textFontWeight="400"
@@ -68,4 +69,33 @@
         android:gravity="center"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
+        android:text="@string/or"
+        android:textAppearance="@style/or"
+        android:fontFamily="@font/RobotoRegular"
+        android:textFontWeight="300"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        <View
+            android:layout_width="223dp"
+            android:layout_height="33dp"
+            android:background="@drawable/ic_rectangle_46"
+            android:layout_marginTop="11dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="199dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_gravity="center"
+            android:text="@string/email"
+            android:textAppearance="@style/email"
+            android:fontFamily="@font/RobotoRegular"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
 </LinearLayout>
