@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeDishDisplay">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="76dp">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="197dp">
+                <View
+                    android:id="@+id/rectangle2"
+                    android:layout_width="188dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/ic_rectangle_212_white"/>
+                <TextView
+                    android:layout_width="49dp"
+                    android:layout_height="19dp"
+                    android:id="@+id/dishes"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="63dp"
+                    android:fontFamily="@font/RobotoRegular"
+                    android:lineHeight="19sp"
+                    android:textFontWeight="500"
+                    android:text="@string/dishes"
+                    android:textAppearance="@style/dishes"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="188dp">
+                <View
+                    android:id="@+id/rectangle1"
+                    android:layout_width="188dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/ic_rectangle_212_white" />
+                <TextView
+                    android:id="@+id/cookes"
+                    android:layout_width="49dp"
+                    android:layout_height="19dp"
+                    android:layout_marginLeft="63dp"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/RobotoRegular"
+                    android:lineHeight="19sp"
+                    android:text="@string/cookes"
+                    android:textAppearance="@style/cookes"
+                    android:textFontWeight="500" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+</LinearLayout>

@@ -9,4 +9,6 @@
     <string name="login_2">Login</string>
     <string name="sign_up_here">Sign up here</string>
     <string name="dont_have_a">Dont have an account?</string>
+    <string name="dishes">Dishes</string>
+    <string name="cookes">Cookes</string>
 </resources>
