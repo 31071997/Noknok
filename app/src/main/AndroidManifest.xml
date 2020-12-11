@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Noknok">
-        <activity android:name=".HomeDishDisplay"></activity>
+        <activity
+            android:name=".DishDisplay"
+            android:label="@string/title_activity_dish_display"
+            android:theme="@style/Theme.Noknok.NoActionBar"></activity>
+        <activity android:name=".HomeDishDisplay" />
         <activity android:name=".login" />
         <activity android:name=".MainActivity">
             <intent-filter>
