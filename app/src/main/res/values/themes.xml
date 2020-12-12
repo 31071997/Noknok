@@ -74,6 +74,11 @@
         <item name="android:textColor">#FFFFFF</item>
     </style>
 
+    <style name="enter_your_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FC9C43</item>
+    </style>
+
     <style name="Theme.Noknok.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
