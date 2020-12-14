@@ -22,4 +22,5 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="enter_your_">enter your location to find dishes near you</string>
+    <string name="view_dish">View Dish</string>
 </resources>

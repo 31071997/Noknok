@@ -8,5 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="display_title">#FF7F08</color>
-    <color name="display_title">#FC9C43</color>
+    <color name="write_location">#FC9C43</color>
 </resources>

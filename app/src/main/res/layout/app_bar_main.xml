@@ -100,9 +100,43 @@
                 android:inputType="text"
                 android:text="@string/enter_your_"
                 android:textAppearance="@style/enter_your_"
+                android:textColor="@color/write_location"
                 android:fontFamily="@font/RobotoRegular"
                 android:lineHeight="14sp"
+                android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
+                android:width="240dp"
+                android:background="transparent"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp">
+            <View
+                android:id="@+id/view_dish"
+                android:layout_width="87dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/ic_facebook2"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/view_dish_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:inputType="text"
+                android:width="57dp"
+                android:height="15dp"
+                android:lineHeight="15sp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="@string/view_dish"
+                android:textAppearance="@style/view_dish"
+                android:textColor="@color/display_title"
+                android:fontFamily="@font/RobotoRegular"
                 />
         </RelativeLayout>
     </LinearLayout>

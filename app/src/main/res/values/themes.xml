@@ -79,6 +79,11 @@
         <item name="android:textColor">#FC9C43</item>
     </style>
 
+    <style name="view_dish">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FF7F08</item>
+    </style>
+
     <style name="Theme.Noknok.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
