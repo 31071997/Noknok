@@ -14,57 +14,7 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="24dp"
-        android:orientation="vertical"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="76dp">
-        <RelativeLayout
-            android:layout_width="188dp"
-            android:layout_height="match_parent"
-            android:layout_marginRight="197dp">
-            <View
-                android:id="@+id/rectangle2"
-                android:layout_width="188dp"
-                android:layout_height="24dp"
-                android:background="@drawable/ic_rectangle_212_white"/>
-            <TextView
-                android:layout_width="49dp"
-                android:layout_height="19dp"
-                android:id="@+id/dishes"
-                android:layout_marginTop="2dp"
-                android:layout_marginLeft="63dp"
-                android:fontFamily="@font/RobotoRegular"
-                android:lineHeight="19sp"
-                android:textFontWeight="500"
-                android:text="@string/dishes"
-                android:textAppearance="@style/dishes"/>
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="188dp"
-                android:layout_height="24dp"
-                android:layout_marginLeft="188dp">
-                <View
-                    android:id="@+id/rectangle1"
-                    android:layout_width="188dp"
-                    android:layout_height="24dp"
-                    android:background="@drawable/ic_rectangle_212_white" />
-                <TextView
-                    android:layout_width="49dp"
-                    android:layout_height="19dp"
-                    android:id="@+id/cooks"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginLeft="63dp"
-                    android:fontFamily="@font/RobotoRegular"
-                    android:lineHeight="19sp"
-                    android:textFontWeight="500"
-                    android:text="@string/dishes"
-                    android:textAppearance="@style/dishes"/>
-            </RelativeLayout>
-        </LinearLayout>
-    </LinearLayout>
+
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

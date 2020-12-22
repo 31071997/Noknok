@@ -23,4 +23,6 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="enter_your_">enter your location to find dishes near you</string>
     <string name="view_dish">View Dish</string>
+    <string name="date">Date</string>
+    <string name="catagories">Catagories</string>
 </resources>
