@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RelativeLayout
@@ -31,20 +31,21 @@
 
         </RelativeLayout>
         <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
             <View
-                android:layout_width="69dp"
-                android:layout_height="16dp"
+                android:layout_width="76dp"
+                android:layout_height="19dp"
                 android:background="@drawable/ic_rectangle_254"
-                android:layout_marginLeft="300dp"
+                android:layout_marginRight="19dp"
                 android:layout_marginTop="177dp"/>
             <TextView
-                android:layout_width="29dp"
+                android:layout_width="69dp"
                 android:layout_height="16dp"
                 android:gravity="center"
                 android:layout_marginTop="177dp"
-                android:layout_marginLeft="304dp"
+                android:layout_marginLeft="4dp"
                 android:text="@string/catagories"
                 android:textAppearance="@style/date"
                 android:lineHeight="16sp"
