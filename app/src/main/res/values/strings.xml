@@ -24,5 +24,9 @@
     <string name="enter_your_">enter your location to find dishes near you</string>
     <string name="view_dish">View Dish</string>
     <string name="date">Date</string>
-    <string name="catagories">Catagories</string>
+    <string name="menu">Menu</string>
+    <string name="fav">Favs</string>
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="account">Account</string>
 </resources>

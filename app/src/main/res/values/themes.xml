@@ -89,6 +89,11 @@
         <item name="android:textColor">#FFFFFF</item>
     </style>
 
+    <style name="menu">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#BD000000</item>
+    </style>
+
     <style name="Theme.Noknok.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
