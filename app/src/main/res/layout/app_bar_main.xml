@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,12 +16,9 @@
         <RelativeLayout
             android:layout_width="188dp"
             android:layout_height="match_parent"
-            android:layout_marginRight="197dp">
-            <View
-                android:id="@+id/rectangle2"
-                android:layout_width="188dp"
-                android:layout_height="24dp"
-                android:background="@drawable/ic_rectangle_212_white" />
+            android:layout_marginRight="197dp"
+            android:baselineAligned="false">
+
             <TextView
                 android:id="@+id/dishes"
                 android:layout_width="49dp"
@@ -35,6 +31,12 @@
                 android:textAppearance="@style/dishes"
                 android:textFontWeight="500" />
 
+            <View
+                android:id="@+id/rectangle2"
+                android:layout_width="188dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_rectangle_212_white" />
+
 
         </RelativeLayout>
 
@@ -42,11 +44,7 @@
             android:layout_width="188dp"
             android:layout_height="24dp"
             android:layout_marginLeft="-188dp">
-            <View
-                android:id="@+id/rectangle1"
-                android:layout_width="188dp"
-                android:layout_height="24dp"
-                android:background="@drawable/ic_rectangle_212_white" />
+
             <TextView
                 android:id="@+id/cooks"
                 android:layout_width="49dp"
@@ -58,6 +56,12 @@
                 android:text="@string/cooks"
                 android:textAppearance="@style/dishes"
                 android:textFontWeight="500" />
+
+            <View
+                android:id="@+id/rectangle1"
+                android:layout_width="188dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_rectangle_212_white" />
 
         </RelativeLayout>
 
