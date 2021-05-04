@@ -13,32 +13,26 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="76dp">
 
-        <RelativeLayout
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="188dp"
             android:layout_height="match_parent"
             android:layout_marginRight="197dp"
             android:baselineAligned="false">
 
-            <TextView
+            <Button
                 android:id="@+id/dishes"
-                android:layout_width="49dp"
-                android:layout_height="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="63dp"
                 android:layout_marginTop="2dp"
                 android:fontFamily="@font/RobotoRegular"
                 android:lineHeight="19sp"
                 android:text="@string/dishes"
                 android:textAppearance="@style/dishes"
-                android:textFontWeight="500" />
-
-            <View
-                android:id="@+id/rectangle2"
-                android:layout_width="188dp"
-                android:layout_height="24dp"
-                android:background="@drawable/ic_rectangle_212_white" />
-
-
-        </RelativeLayout>
+                android:background="@drawable/ic_rectangle_212_white"
+                android:textFontWeight="500"/>
+        </LinearLayout>
 
         <RelativeLayout
             android:layout_width="188dp"
