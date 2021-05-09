@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="24dp"
+        android:layout_height="40dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="76dp">
@@ -23,15 +23,11 @@
             <Button
                 android:id="@+id/dishes"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="63dp"
-                android:layout_marginTop="2dp"
-                android:fontFamily="@font/RobotoRegular"
-                android:lineHeight="19sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_background"
                 android:text="@string/dishes"
-                android:textAppearance="@style/dishes"
-                android:background="@drawable/ic_rectangle_212_white"
-                android:textFontWeight="500"/>
+                android:textAppearance="@style/dishes" />
         </LinearLayout>
 
         <RelativeLayout
