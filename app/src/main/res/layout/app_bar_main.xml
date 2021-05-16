@@ -8,17 +8,18 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="25dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="76dp">
+        android:layout_marginTop="76dp"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="188dp"
             android:layout_height="match_parent"
-            android:layout_marginRight="197dp"
-            android:baselineAligned="false">
+            android:baselineAligned="false"
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/dishes"
@@ -30,108 +31,107 @@
                 android:textAppearance="@style/dishes" />
         </LinearLayout>
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="188dp"
-            android:layout_height="24dp"
-            android:layout_marginLeft="-188dp">
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:baselineAligned="false"
+            android:gravity="right"
+            android:orientation="vertical">
 
-            <TextView
+            <Button
                 android:id="@+id/cooks"
-                android:layout_width="49dp"
-                android:layout_height="19dp"
-                android:layout_marginLeft="63dp"
-                android:layout_marginTop="2dp"
-                android:fontFamily="@font/RobotoRegular"
-                android:lineHeight="19sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_background"
                 android:text="@string/cooks"
-                android:textAppearance="@style/dishes"
-                android:textFontWeight="500" />
-
-            <View
-                android:id="@+id/rectangle1"
-                android:layout_width="188dp"
-                android:layout_height="24dp"
-                android:background="@drawable/ic_rectangle_212_white" />
-
-        </RelativeLayout>
-
+                android:textAppearance="@style/dishes" />
+        </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="31dp">
+        android:layout_marginTop="31dp"
+        android:orientation="horizontal">
+
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+
             <View
                 android:id="@+id/menu1"
                 android:layout_width="38dp"
                 android:layout_height="32dp"
                 android:layout_marginLeft="8dp"
-                android:background="@drawable/ic_group_37"/>
+                android:background="@drawable/ic_group_37" />
+
             <View
                 android:id="@+id/menu2"
                 android:layout_width="38dp"
                 android:layout_height="32dp"
                 android:layout_marginLeft="8dp"
-                android:background="@drawable/ic_group_49"/>
+                android:background="@drawable/ic_group_49" />
         </RelativeLayout>
+
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <View
-                android:id="@+id/write"
-                android:layout_width="251dp"
-                android:layout_height="32dp"
-                android:layout_marginLeft="8dp"
-                android:background="@drawable/ic_facebook"/>
 
             <EditText
                 android:id="@+id/location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:ems="20"
-                android:inputType="text"
-                android:text="@string/enter_your_"
-                android:textAppearance="@style/enter_your_"
-                android:textColor="@color/write_location"
-                android:fontFamily="@font/RobotoRegular"
-                android:lineHeight="14sp"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
                 android:width="240dp"
                 android:background="transparent"
-                />
+                android:ems="20"
+                android:fontFamily="@font/RobotoRegular"
+                android:inputType="text"
+                android:lineHeight="14sp"
+                android:text="@string/enter_your_"
+                android:textAppearance="@style/enter_your_"
+                android:textColor="@color/write_location" />
+
+            <View
+                android:id="@+id/write"
+                android:layout_width="251dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/ic_facebook" />
         </RelativeLayout>
+
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp">
+
+            <TextView
+                android:id="@+id/view_dish_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:width="57dp"
+                android:height="15dp"
+                android:ems="20"
+                android:fontFamily="@font/RobotoRegular"
+                android:gravity="center"
+                android:inputType="text"
+                android:lineHeight="15sp"
+                android:text="@string/view_dish"
+                android:textAppearance="@style/view_dish"
+                android:textColor="@color/display_title" />
+
             <View
                 android:id="@+id/view_dish"
                 android:layout_width="87dp"
                 android:layout_height="32dp"
                 android:layout_marginLeft="8dp"
-                android:background="@drawable/ic_facebook2"/>
-
-            <TextView
-                android:gravity="center"
-                android:id="@+id/view_dish_option"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="20"
-                android:inputType="text"
-                android:width="57dp"
-                android:height="15dp"
-                android:lineHeight="15sp"
-                android:layout_marginLeft="15dp"
-                android:layout_centerInParent="true"
-                android:layout_marginTop="8dp"
-                android:text="@string/view_dish"
-                android:textAppearance="@style/view_dish"
-                android:textColor="@color/display_title"
-                android:fontFamily="@font/RobotoRegular"
-                />
+                android:background="@drawable/ic_facebook2" />
         </RelativeLayout>
     </LinearLayout>
 
