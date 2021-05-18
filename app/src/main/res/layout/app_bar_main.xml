@@ -54,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="31dp"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <RelativeLayout
@@ -134,6 +135,26 @@
                 android:background="@drawable/ic_facebook2" />
         </RelativeLayout>
     </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="180dp"
+            android:background="@drawable/ic_rectangle_253"
+            android:text="@string/date"
+            android:textAppearance="@style/date"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_rectangle_253"
+            android:text="@string/categories"
+            android:textAppearance="@style/date"/>
+    </LinearLayout>
 </LinearLayout>
 
