@@ -13,16 +13,79 @@
         android:layout_height="59dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="114dp"
-        android:layout_marginTop="200dp"
-        android:gravity="top"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="190dp"
         android:text="@string/app_name"
         android:textAppearance="@style/noknok" />
 
-    <View
+    <RelativeLayout
         android:layout_width="189dp"
         android:layout_height="37dp"
-        android:layout_marginLeft="113dp"
-        android:layout_marginTop="533dp"
-        android:background="@drawable/ic_rectangle48" />
+        android:layout_gravity="center"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="103dp" >
+
+        <View
+            android:id="@+id/rectangle_2"
+            android:layout_width="189dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_rectangle_48" />
+
+        <TextView
+            android:id="@+id/login_as_co"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4.5dp"
+            android:fontFamily="@font/salsaregular"
+            android:lineHeight="30dp"
+            android:text="@string/login_as_co"
+            android:textAppearance="@style/login_as_co"
+            android:textFontWeight="400"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="145dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="125dp" >
+
+        <View
+            android:id="@+id/rectangle_4"
+            android:layout_width="145dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_rectangle_49" />
+
+        <TextView
+            android:id="@+id/login_as_fo"
+            android:layout_width="120dp"
+            android:layout_height="22dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/salsaregular"
+            android:lineHeight="22dp"
+            android:text="@string/login_as_fo"
+            android:textAppearance="@style/login_as_fo"
+            android:textFontWeight="500"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/view_as_gue"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="540dp"
+        android:text="View as guest"
+        android:fontFamily="@font/robotomono"
+        android:textAppearance="@style/view_as_gue" />
+
 </RelativeLayout>

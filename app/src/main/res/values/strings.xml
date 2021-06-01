@@ -30,4 +30,8 @@
     <string name="cart">Cart</string>
     <string name="account">Account</string>
     <string name="categories">Categories</string>
+    <string name="login_as_co">Login as Cook</string>
+    <string name="login_as_fo">Login as Foodie</string>
+    <string name="view_as_gue">View as guest</string>
+    <string name="rectangle_2">Login as Cook</string>
 </resources>
