@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".HomeDishDisplay">
 
@@ -11,7 +11,7 @@
         android:layout_height="25dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="50dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/button_background"
+                android:background="@drawable/ic_rectangle_214"
                 android:text="@string/dishes"
                 android:textAppearance="@style/dishes" />
         </LinearLayout>
@@ -44,115 +44,66 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/button_background"
+                android:background="@drawable/ic_rectangle_214"
                 android:text="@string/cooks"
                 android:textAppearance="@style/dishes" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="31dp"
         android:gravity="center"
-        android:orientation="horizontal">
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <View
-                android:id="@+id/menu1"
-                android:layout_width="38dp"
-                android:layout_height="32dp"
-                android:layout_marginLeft="8dp"
-                android:background="@drawable/ic_group_37" />
-
-            <View
-                android:id="@+id/menu2"
-                android:layout_width="38dp"
-                android:layout_height="32dp"
-                android:layout_marginLeft="8dp"
-                android:background="@drawable/ic_group_49" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <EditText
-                android:id="@+id/location"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:width="240dp"
-                android:background="transparent"
-                android:ems="20"
-                android:fontFamily="@font/RobotoRegular"
-                android:inputType="text"
-                android:lineHeight="14sp"
-                android:text="@string/enter_your_"
-                android:textAppearance="@style/enter_your_"
-                android:textColor="@color/write_location" />
-
-            <View
-                android:id="@+id/write"
-                android:layout_width="251dp"
-                android:layout_height="32dp"
-                android:layout_marginLeft="8dp"
-                android:background="@drawable/ic_facebook" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="3dp">
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:width="240dp"
+            android:background="@drawable/ic_facebook"
+            android:ems="20"
+            android:fontFamily="@font/RobotoRegular"
+            android:gravity="center"
+            android:inputType="text"
+            android:lineHeight="14sp"
+            android:text="@string/enter_your_"
+            android:textAppearance="@style/enter_your_"
+            android:textColor="@color/write_location"/>
 
-            <TextView
-                android:id="@+id/view_dish_option"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="8dp"
-                android:width="57dp"
-                android:height="15dp"
-                android:ems="20"
-                android:fontFamily="@font/RobotoRegular"
-                android:gravity="center"
-                android:inputType="text"
-                android:lineHeight="15sp"
-                android:text="@string/view_dish"
-                android:textAppearance="@style/view_dish"
-                android:textColor="@color/display_title" />
-
-            <View
-                android:id="@+id/view_dish"
-                android:layout_width="87dp"
-                android:layout_height="32dp"
-                android:layout_marginLeft="8dp"
-                android:background="@drawable/ic_facebook2" />
-        </RelativeLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/filter"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="1dp"
-            android:layout_marginRight="180dp"
-            android:background="@drawable/ic_rectangle_253"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_rectangle_263"
+            android:text="@string/filter"
+            android:textAppearance="@style/date"/>
+        <Button
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_rectangle_263"
             android:text="@string/date"
             android:textAppearance="@style/date"/>
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@drawable/ic_rectangle_253"
+            android:id="@+id/categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_rectangle_262"
             android:text="@string/categories"
             android:textAppearance="@style/date"/>
     </LinearLayout>

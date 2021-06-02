@@ -21,7 +21,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-    <string name="enter_your_">enter your location to find dishes near you</string>
+    <string name="enter_your_">enter your location</string>
     <string name="view_dish">View Dish</string>
     <string name="date">Date</string>
     <string name="menu">Menu</string>
@@ -30,4 +30,5 @@
     <string name="cart">Cart</string>
     <string name="account">Account</string>
     <string name="categories">Categories</string>
+    <string name="filter">Filter</string>
 </resources>
