@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentTop="true">
+    android:elevation="5dp">
 
     <TextView
         android:id="@+id/noknok"
@@ -19,61 +19,25 @@
         android:text="@string/app_name"
         android:textAppearance="@style/noknok" />
 
-    <RelativeLayout
+    <Button
+        android:id="@+id/login_as_co"
         android:layout_width="189dp"
         android:layout_height="37dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="390dp"
-        android:layout_marginLeft="103dp" >
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/ic_rectangle_48"
+        android:text="Login as Cook"
+        android:textAppearance="@style/login_as_co"/>
 
-        <View
-            android:id="@+id/rectangle_2"
-            android:layout_width="189dp"
-            android:layout_height="37dp"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/ic_rectangle_48" />
-
-        <TextView
-            android:id="@+id/login_as_co"
-            android:layout_width="150dp"
-            android:layout_height="30dp"
-            android:gravity="center_horizontal"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="4.5dp"
-            android:fontFamily="@font/salsaregular"
-            android:lineHeight="30dp"
-            android:text="@string/login_as_co"
-            android:textAppearance="@style/login_as_co"
-            android:textFontWeight="400"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="145dp"
+    <Button
+        android:id="@+id/login_as_fo"
+        android:layout_width="144dp"
         android:layout_height="37dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="450dp"
-        android:layout_marginLeft="125dp" >
-
-        <View
-            android:id="@+id/rectangle_4"
-            android:layout_width="145dp"
-            android:layout_height="37dp"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/ic_rectangle_49" />
-
-        <TextView
-            android:id="@+id/login_as_fo"
-            android:layout_width="120dp"
-            android:layout_height="22dp"
-            android:gravity="center_horizontal"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/salsaregular"
-            android:lineHeight="22dp"
-            android:text="@string/login_as_fo"
-            android:textAppearance="@style/login_as_fo"
-            android:textFontWeight="500"/>
-    </RelativeLayout>
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/ic_rectangle_49"
+        android:text="Login as foodie"
+        android:textAppearance="@style/login_as_fo"/>
 
     <TextView
         android:id="@+id/view_as_gue"
@@ -82,10 +46,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:gravity="center"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="540dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="45dp"
         android:text="View as guest"
         android:fontFamily="@font/robotomono"
         android:textAppearance="@style/view_as_gue" />
 
-</RelativeLayout>
+</LinearLayout>
