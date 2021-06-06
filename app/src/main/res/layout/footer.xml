@@ -20,7 +20,7 @@
         android:layout_marginLeft="-30dp"
         android:textFontWeight="300"
         android:lineHeight="13sp"
-        android:fontFamily="@font/RobotoRegular"/>
+        android:fontFamily="@font/robotoregular"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
         android:layout_marginLeft="-30dp"
         android:textFontWeight="300"
         android:lineHeight="13sp"
-        android:fontFamily="@font/RobotoRegular"/>
+        android:fontFamily="@font/robotoregular"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -53,7 +53,7 @@
         android:layout_marginLeft="-30dp"
         android:textFontWeight="300"
         android:lineHeight="13sp"
-        android:fontFamily="@font/RobotoRegular"/>
+        android:fontFamily="@font/robotoregular"/>
     <ImageView
         android:layout_width="wrap_content"
         android:src="@drawable/icons_shopping_cart"
@@ -69,7 +69,7 @@
         android:layout_marginLeft="-30dp"
         android:textFontWeight="300"
         android:lineHeight="13sp"
-        android:fontFamily="@font/RobotoRegular"/>
+        android:fontFamily="@font/robotoregular"/>
     <ImageView
         android:layout_width="wrap_content"
         android:src="@drawable/icons_user"
@@ -85,5 +85,5 @@
         android:layout_marginLeft="-30dp"
         android:textFontWeight="300"
         android:lineHeight="13sp"
-        android:fontFamily="@font/RobotoRegular"/>
+        android:fontFamily="@font/robotoregular"/>
 </LinearLayout>
