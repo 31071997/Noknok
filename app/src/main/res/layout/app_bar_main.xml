@@ -66,7 +66,6 @@
             android:width="240dp"
             android:background="@drawable/ic_facebook"
             android:ems="20"
-            android:fontFamily="@font/robotoregular"
             android:gravity="center"
             android:inputType="text"
             android:lineHeight="14sp"

@@ -85,6 +85,7 @@
     <style name="enter_your_">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#FC9C43</item>
+        android:fontFamily="@font/robotoregular"
     </style>
 
     <style name="view_dish">
