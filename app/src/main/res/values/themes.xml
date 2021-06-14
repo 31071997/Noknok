@@ -154,9 +154,10 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
     </style>
     <style name="footer_font">
-        android:textFontWeight="300"
-        android:lineHeight="13sp"
         <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+    <style name="footer_pic">
+
     </style>
 
     <style name="search_cook_dish">

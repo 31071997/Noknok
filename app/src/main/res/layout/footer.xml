@@ -5,6 +5,7 @@
     android:gravity="bottom"
     android:layout_gravity="bottom">
     <LinearLayout
+        android:layout_marginLeft="41dp"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="horizontal">
@@ -12,17 +13,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/menu_icon"
-            android:layout_marginLeft="46dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="21dp"
             />
         <TextView
+            android:textFontWeight="300"
+            android:lineHeight="13sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/menu"
             android:textAppearance="@style/footer_font"/>
     </LinearLayout>
     <LinearLayout
+        android:layout_marginLeft="41dp"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="horizontal">
@@ -30,11 +31,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/love"
-            android:layout_marginLeft="46dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="21dp"
             />
         <TextView
+            android:textFontWeight="300"
+            android:lineHeight="13sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fav"
@@ -42,24 +42,25 @@
 
     </LinearLayout>
     <LinearLayout
+        android:layout_marginLeft="41dp"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="46dp"
-            android:layout_marginTop="15dp"
             android:src="@drawable/search"
-            android:layout_marginBottom="21dp"
             />
         <TextView
+            android:textFontWeight="300"
+            android:lineHeight="13sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/search"
             android:textAppearance="@style/footer_font"/>
     </LinearLayout>
     <LinearLayout
+        android:layout_marginLeft="41dp"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="horizontal">
@@ -67,29 +68,28 @@
             android:layout_width="wrap_content"
             android:src="@drawable/cart"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="46dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="21dp"
             />
         <TextView
+            android:textFontWeight="300"
+            android:lineHeight="13sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cart"
             android:textAppearance="@style/footer_font"/>
     </LinearLayout>
     <LinearLayout
+        android:layout_marginLeft="41dp"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="wrap_content"
-            android:src="@drawable/ic_icons8_love_40px_1_9"
+            android:src="@drawable/icons8_user"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="46dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="21dp"
             />
         <TextView
+            android:textFontWeight="300"
+            android:lineHeight="13sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/account"
