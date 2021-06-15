@@ -155,9 +155,14 @@
     </style>
     <style name="footer_font">
         <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">11sp</item>
+        <item name="lineHeight">13sp</item>
+        <item name="android:layout_marginTop">34dp</item>
+        <item name="android:layout_marginLeft">41dp</item>
     </style>
     <style name="footer_pic">
-
+        <item name="android:layout_marginLeft">46dp</item>
+        <item name="android:layout_marginTop">15dp</item>
     </style>
 
     <style name="search_cook_dish">
