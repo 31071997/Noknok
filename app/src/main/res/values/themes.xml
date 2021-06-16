@@ -168,11 +168,11 @@
     <style name="search_cook_dish">
         <item name="android:textSize">15sp</item>
     </style>
-
-
-
-
-
+    <style name="round_corner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">7dp</item>
+        <item name="android:color">@color/white</item>
+    </style>
     <style name="Theme.Noknok.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Noknok.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
