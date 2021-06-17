@@ -169,9 +169,7 @@
         <item name="android:textSize">15sp</item>
     </style>
     <style name="round_corner">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">7dp</item>
-        <item name="android:color">@color/white</item>
+        <item name="cornerSize">10%</item>
     </style>
     <style name="Theme.Noknok.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 

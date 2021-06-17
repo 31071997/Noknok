@@ -10,9 +10,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="7dp">
+            android:background="@color/white">
             <com.google.android.material.imageview.ShapeableImageView
                 android:layout_height="180dp"
+                android:background="@drawable/backdrop"
                 app:shapeAppearanceOverlay="@style/round_corner"
                 android:layout_width="351dp"
                 android:src="@drawable/background"
