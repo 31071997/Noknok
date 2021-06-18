@@ -10,4 +10,7 @@
     <color name="white_grey">#A1A1A1</color>
     <color name="display_title">#FF7F08</color>
     <color name="write_location">#FC9C43</color>
+    <color name="rating">#FF9E44</color>
+    <color name="dish_description">#514F4F</color>
+    <color name="availability">#5E5D5D</color>
 </resources>
