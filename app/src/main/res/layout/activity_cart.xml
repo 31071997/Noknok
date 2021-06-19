@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cart">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="91dp">
+        <TextView
+            android:layout_marginLeft="21dp"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:text="@string/Your_cart"
+            android:textAppearance="@style/cart"
+            android:layout_weight="700"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/check_out"
+            android:textAppearance="@style/check_out"
+            android:layout_weight="500"
+            android:layout_marginLeft="124dp"/>
+    </LinearLayout>
+</ScrollView>

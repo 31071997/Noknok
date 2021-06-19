@@ -98,7 +98,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Available from 16-20 OCT"
+                    android:text="@string/availability"
                     android:textAppearance="@style/price"
                     android:textColor="@color/availability"/>
             </LinearLayout>

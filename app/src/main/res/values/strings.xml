@@ -43,5 +43,9 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="by_clicking">By clicking submit, I agree to NOKNOK\'s Terms of Service and Privacy Policy</string>
     <string name="filter">Filter</string>
-
+    <string name="favourites">Favourites</string>
+    <string name="availability">Available from</string>
+    <string name="order_time">Order by</string>
+    <string name="Your_cart">Your cart</string>
+    <string name="check_out">Continue to check out</string>
 </resources>
