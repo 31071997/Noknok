@@ -205,6 +205,11 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/display_title</item>
     </style>
+    <style name="cart_name">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">19sp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
     <style name="Theme.Noknok.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Noknok.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

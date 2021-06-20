@@ -15,5 +15,6 @@
     <color name="availability">#5E5D5D</color>
     <color name="favourites">#6F6F6F</color>
     <color name="order_time">#F9983E</color>
+    <color name="red">#FF2828</color>
     <color name="cart">#606060</color>
 </resources>

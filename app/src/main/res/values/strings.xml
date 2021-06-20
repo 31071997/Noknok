@@ -47,5 +47,6 @@
     <string name="availability">Available from</string>
     <string name="order_time">Order by</string>
     <string name="Your_cart">Your cart</string>
-    <string name="check_out">Continue to check out</string>
+    <string name="cancel">cancel order</string>
+
 </resources>
