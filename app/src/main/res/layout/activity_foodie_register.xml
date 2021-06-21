@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="5dp">
+
+    <TextView
+        android:id="@id/register"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:textAlignment="center"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/roboto_mono"
+        android:gravity="center"
+        android:lineHeight="24sp"
+        android:text="@string/register"
+        android:textAppearance="@style/register"
+        android:textFontWeight="400"/>
+
+    <View
+        android:layout_width="193dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/ic_line_16"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_43"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="14dp">
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/icons8_face"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/ic_rectangle_facebook"
+            />
+
+        <TextView
+            android:layout_width="163dp"
+            android:textFontWeight="400"
+            android:layout_height="20dp"
+            android:id="@+id/facebook_wi"
+            android:foregroundGravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginRight="25dp"
+            android:text="@string/facebook_wi"
+            android:textAppearance="@style/facebook_wi"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="16dp"
+        android:layout_height="14dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:text="@string/or"
+        android:textAppearance="@style/or"
+        android:fontFamily="@font/roboto_regular"
+        android:textFontWeight="300"/>
+
+    <EditText
+        android:id="@+id/editTextTextFoodieUsername"
+        android:layout_width="270dp"
+        android:textFontWeight="300"
+        android:lineHeight="14sp"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/ic_rectangle_287"
+        android:layout_gravity="center"
+        android:paddingLeft="12dp"
+        android:text="@string/username"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/login_register_edittext"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextFoodieMobileNumber"
+        android:layout_width="270dp"
+        android:textFontWeight="300"
+        android:lineHeight="14sp"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/ic_rectangle_287"
+        android:layout_gravity="center"
+        android:paddingLeft="12dp"
+        android:text="@string/mobile_numb"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/login_register_edittext"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextFoodiePassword"
+        android:layout_width="270dp"
+        android:textFontWeight="300"
+        android:lineHeight="14sp"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/ic_rectangle_287"
+        android:layout_gravity="center"
+        android:paddingLeft="12dp"
+        android:text="@string/password"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/login_register_edittext"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/foodie_sign_up"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/ic_rectangle_284"
+        android:text="Sign Up"
+        android:textAppearance="@style/sign_up"/>
+
+</LinearLayout>

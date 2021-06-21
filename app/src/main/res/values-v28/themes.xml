@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="view_as_gue">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#A1A1A1</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+        <item name="android:lineHeight">17sp</item>
+    </style>
+</resources>

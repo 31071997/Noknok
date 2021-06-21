@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Noknok</string>
     <string name="login">Login</string>
     <string name="facebook_lo">facebook  login</string>
@@ -47,6 +47,6 @@
     <string name="availability">Available from</string>
     <string name="order_time">Order by</string>
     <string name="Your_cart">Your cart</string>
-    <string name="cancel">cancel order</string>
+    <string name="check_out">Continue to check out</string>
 
 </resources>
