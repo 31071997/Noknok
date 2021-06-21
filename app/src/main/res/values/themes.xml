@@ -85,7 +85,7 @@
     <style name="enter_your_">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#FC9C43</item>
-        android:fontFamily="@font/robotoregular"
+        <item name="android:fontFamily">@font/roboto_regular</item>
     </style>
 
     <style name="view_dish">
@@ -265,6 +265,14 @@
         <item name="lineHeight">19sp</item>
         <item name="android:textSize">17sp</item>
     </style>
+
+    <style name="filter_attribute">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
     <style name="Theme.Noknok.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Noknok.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
