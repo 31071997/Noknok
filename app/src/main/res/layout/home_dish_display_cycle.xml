@@ -23,6 +23,7 @@
             app:strokeWidth="15dp" />
 
         <ImageView
+                android:elevation="2dp"
                 android:layout_width="55dp"
                 android:layout_height="55dp"
                 android:src="@drawable/profile"
