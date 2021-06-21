@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:elevation="5dp">
+
+    <View
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="310dp"
+        android:background="@drawable/ic_ellipse_27"/>
+
+    <EditText
+        android:id="@+id/editTextTextCookFirstname"
+        android:layout_width="300dp"
+        android:textFontWeight="300"
+        android:lineHeight="14sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/ic_rectangle_53"
+        android:layout_gravity="center"
+        android:paddingLeft="12dp"
+        android:text="@string/first_name"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/login_register_edittext"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextCookLastname"
+        android:layout_width="300dp"
+        android:textFontWeight="300"
+        android:lineHeight="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/ic_rectangle_53"
+        android:layout_gravity="center"
+        android:paddingLeft="12dp"
+        android:text="@string/last_name"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/login_register_edittext"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextCookPhonenumber"
+        android:layout_width="300dp"
+        android:textFontWeight="300"
+        android:lineHeight="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/ic_rectangle_53"
+        android:layout_gravity="center"
+        android:paddingLeft="12dp"
+        android:text="@string/phone_number"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/login_register_edittext"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextCookGender"
+        android:layout_width="300dp"
+        android:textFontWeight="300"
+        android:lineHeight="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/ic_rectangle_53"
+        android:layout_gravity="center"
+        android:paddingLeft="12dp"
+        android:text="@string/gender"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/login_register_edittext"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextCookCreatepassword"
+        android:layout_width="300dp"
+        android:textFontWeight="300"
+        android:lineHeight="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/ic_rectangle_53"
+        android:layout_gravity="center"
+        android:paddingLeft="12dp"
+        android:text="@string/create_password"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/login_register_edittext"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextCookConfirmpassword"
+        android:layout_width="300dp"
+        android:textFontWeight="300"
+        android:lineHeight="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/ic_rectangle_53"
+        android:layout_gravity="center"
+        android:paddingLeft="12dp"
+        android:text="@string/confirm_password"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/login_register_edittext"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/by_clicking"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:textAlignment="center"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:lineHeight="24sp"
+        android:text="@string/by_clicking"
+        android:textAppearance="@style/by_clicking"
+        android:textFontWeight="400"/>
+
+    <Button
+        android:id="@+id/cook_submit"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_rectangle_62"
+        android:text="Submit"
+        android:textAppearance="@style/login_3"/>
+
+</LinearLayout>
