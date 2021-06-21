@@ -103,10 +103,10 @@
         <item name="android:textColor">#BD000000</item>
     </style>
 
-    <style name="login_as_co">
-         <item name="android:textSize">23sp</item>
-         <item name="android:textColor">#75A1D4</item>
-         <item name="android:fontFamily">@font/salsa_regular</item>
+    <style name="logn_as_co">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#75A1D4</item>
+        <item name="android:fontFamily">@font/salsa_regular</item>
     </style>
 
     <style name="login_as_fo">
@@ -152,6 +152,61 @@
         <item name="android:textColor">#6F6F6F</item>
         <item name="android:fontFamily">@font/roboto_regular</item>
     </style>
+
+    <style name="account_show_username">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#606060</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_profile">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#5E5D5D</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_profile1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF7F08</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_no_order">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#E47373</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_past_order">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FF7F08</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_order_item">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#5E5D5D</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_order_reorder">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="account_profile_read">
+        <item name="android:textSize">12.5sp</item>
+        <item name="android:textColor">#FF7F08</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="account_notification_date">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#1E1E1E</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="footer_font">
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">11sp</item>
