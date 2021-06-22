@@ -231,10 +231,11 @@
         <item name="android:textSize">11sp</item>
         <item name="android:textColor">@color/rating</item>
     </style>
-    <style name="price">
+    <style name="price_total">
         <item name="fontFamily">@font/roboto_regular</item>
         <item name="lineHeight">19sp</item>
         <item name="android:textSize">16sp</item>
+        <item name="subtitleTextStyle">normal</item>
     </style>
     <style name="favourites">
         <item name="fontFamily">@font/roboto_regular</item>
@@ -248,29 +249,43 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/order_time</item>
     </style>
-    <style name="cart">
+    <style name="cart_number">
         <item name="fontFamily">@font/roboto_regular</item>
         <item name="lineHeight">22sp</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/cart</item>
+        <item name="android:textStyle">normal</item>
     </style>
-    <style name="check_out">
+    <style name="check_out_subtotal">
         <item name="fontFamily">@font/roboto_regular</item>
         <item name="lineHeight">19sp</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/display_title</item>
+        <item name="android:textStyle">normal</item>
     </style>
     <style name="cart_name">
         <item name="fontFamily">@font/roboto_regular</item>
         <item name="lineHeight">19sp</item>
         <item name="android:textSize">17sp</item>
     </style>
-
     <style name="filter_attribute">
         <item name="fontFamily">@font/roboto_regular</item>
         <item name="lineHeight">18sp</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textStyle">normal</item>
+    </style>
+    <style name="cart_description">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dish_description</item>
+    </style>
+    <style name="subtotal">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dish_description</item>
     </style>
 
     <style name="Theme.Noknok.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

@@ -48,5 +48,7 @@
     <string name="order_time">Order by</string>
     <string name="Your_cart">Your cart</string>
     <string name="check_out">Continue to check out</string>
-
+    <string name="cancel">Cancel Order</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="total">Total</string>
 </resources>

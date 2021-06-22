@@ -5,25 +5,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Cart">
+
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="21dp"
-        android:orientation="horizontal"
-        android:layout_marginTop="91dp"
-        android:layout_marginBottom="18dp">
-        <TextView
-            android:layout_marginLeft="21dp"
-            android:layout_width="77dp"
-            android:layout_height="match_parent"
-            android:text="@string/Your_cart"
-            android:textAppearance="@style/cart"
-            android:layout_weight="700"/>
-        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="21dp"
+            android:layout_marginBottom="18dp"
+            android:layout_marginTop="91dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="21dp"
+                android:layout_weight="700"
+                android:text="@string/Your_cart"
+                android:textAppearance="@style/cart_number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="124dp"
+                android:layout_weight="500"
+                android:text="@string/check_out"
+                android:textAppearance="@style/check_out_subtotal"
+                android:textColor="@color/display_title" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_checkout_button"
             android:text="@string/check_out"
-            android:textAppearance="@style/check_out"
-            android:layout_weight="500"
-            android:layout_marginLeft="124dp"/>
+            android:textAppearance="@style/check_out_subtotal"
+            android:textColor="@color/white"
+            android:textFontWeight="500"
+            android:layout_marginTop="495dp"/>
     </LinearLayout>
 </ScrollView>

@@ -79,7 +79,7 @@
                         android:layout_width="113dp"
                         android:layout_height="wrap_content"
                         android:text="700 BDT"
-                        android:textAppearance="@style/price"
+                        android:textAppearance="@style/price_total"
                         android:textFontWeight="500"
                         android:textColor="@color/display_title"/>
                     <ImageButton
@@ -94,13 +94,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="blah blah blah"
-                    android:textAppearance="@style/price"
+                    android:textAppearance="@style/price_total"
                     android:textColor="@color/dish_description"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/availability"
-                    android:textAppearance="@style/price"
+                    android:textAppearance="@style/price_total"
                     android:textColor="@color/availability"/>
             </LinearLayout>
     </androidx.cardview.widget.CardView>
