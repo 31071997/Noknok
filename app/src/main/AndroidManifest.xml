@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Noknok">
-        <activity android:name=".HomeCookDisplay"></activity>
+        <activity android:name=".Filter"></activity>
+        <activity android:name=".Signup" />
+        <activity android:name=".Account_profile" />
+        <activity android:name=".Account_order" />
+        <activity android:name=".Account_notification" />
+        <activity android:name=".Account" />
+        <activity android:name=".HomeCookDisplay" />
         <activity android:name=".Cart" />
         <activity android:name=".Favourites" />
         <activity

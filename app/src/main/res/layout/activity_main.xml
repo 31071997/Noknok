@@ -27,7 +27,7 @@
         android:layout_marginTop="150dp"
         android:background="@drawable/ic_rectangle_48"
         android:text="Login as Cook"
-        android:textAppearance="@style/logn_as_co"/>
+        android:textAppearance="@style/login_as_co"/>
 
     <Button
         android:id="@+id/login_as_fo"
