@@ -17,7 +17,7 @@
 
     <style name="noknok">
         <item name="android:textSize">48sp</item>
-        <item name="android:textColor">@color/display_title</item>
+        <item name="android:textColor">@color/display_title_description</item>
         <item name="android:fontFamily">@font/salsa_regular</item>
         <item name="lineHeight">59sp</item>
         <item name="android:textStyle">normal</item>
@@ -243,7 +243,7 @@
         <item name="fontFamily">@font/roboto_regular</item>
         <item name="lineHeight">20sp</item>
         <item name="android:textSize">17sp</item>
-        <item name="android:textColor">@color/favourites</item>
+        <item name="android:textColor">@color/favourites_cook</item>
     </style>
     <style name="order_time">
         <item name="fontFamily">@font/roboto_regular</item>
@@ -255,7 +255,7 @@
         <item name="fontFamily">@font/roboto_regular</item>
         <item name="lineHeight">22sp</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/cart</item>
+        <item name="android:textColor">@color/cart_description</item>
         <item name="android:textStyle">normal</item>
     </style>
     <style name="check_out_subtotal">
@@ -288,6 +288,19 @@
         <item name="android:textSize">15sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/dish_description</item>
+    </style>
+    <style name="cook_name">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">15sp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/favourites_cook</item>
+    </style>
+    <style name="cook_description">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">12sp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">normal</item>
     </style>
 
     <style name="Theme.Noknok.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

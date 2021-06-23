@@ -51,4 +51,9 @@
     <string name="cancel">Cancel Order</string>
     <string name="subtotal">Subtotal</string>
     <string name="total">Total</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="speciality">Speciality</string>
+    <string name="location">Location</string>
+    <string name="open">Open</string>
+    <string name="colon">:</string>
 </resources>

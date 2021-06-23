@@ -72,39 +72,6 @@
             android:text="@string/enter_your_"
             android:textAppearance="@style/enter_your_"
             android:textColor="@color/write_location"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/filter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:background="@drawable/ic_rectangle_263"
-            android:text="@string/filter"
-            android:textAppearance="@style/date"/>
-        <Button
-            android:id="@+id/date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:background="@drawable/ic_rectangle_263"
-            android:text="@string/date"
-            android:textAppearance="@style/date"/>
-        <Button
-            android:id="@+id/categories"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/ic_rectangle_262"
-            android:text="@string/categories"
-            android:textAppearance="@style/date"/>
     </LinearLayout>
 </LinearLayout>
 
