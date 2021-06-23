@@ -54,6 +54,7 @@
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
     </style>
 
     <style name="login_3">
@@ -119,6 +120,7 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#A1A1A1</item>
         <item name="android:fontWeight" tools:targetApi="o">400</item>
+        <item name="android:lineHeight" tools:targetApi="p">17sp</item>
     </style>
 
     <style name="Theme.Noknok.NoActionBar">
