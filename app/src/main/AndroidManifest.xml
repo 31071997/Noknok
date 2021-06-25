@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Noknok">
-        <activity android:name=".Filter"></activity>
+        <activity android:name=".Request"></activity>
+        <activity android:name=".Filter" />
         <activity android:name=".Signup" />
         <activity android:name=".Account_profile" />
         <activity android:name=".Account_order" />

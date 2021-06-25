@@ -296,11 +296,28 @@
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/favourites_cook</item>
     </style>
+
     <style name="cook_description">
         <item name="fontFamily">@font/roboto_regular</item>
         <item name="lineHeight">12sp</item>
         <item name="android:textSize">10sp</item>
         <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="request_titles">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="request_edittext_title">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">14sp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#000000</item>
     </style>
 
     <style name="Theme.Noknok.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
