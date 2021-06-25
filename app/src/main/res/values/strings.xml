@@ -56,5 +56,7 @@
     <string name="location">Location</string>
     <string name="open">Open</string>
     <string name="colon">:</string>
-    <string name="view_profile">view profile</string>
+    <string name="portion">Portion</string>
+    <string name="rcpname">Recipe Name</string>
+    <string name="fourppl">(minimum 4 people or above)</string>
 </resources>
