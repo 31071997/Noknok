@@ -12,12 +12,12 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="android:fontFamily">@font/salsaregular</item>
+        <item name="android:fontFamily">@font/salsa_regular</item>
     </style>
     <style name="noknok">
         <item name="android:textSize">48sp</item>
         <item name="android:textColor">@color/display_title</item>
-        <item name="android:fontFamily">@font/salsaregular</item>
+        <item name="android:fontFamily">@font/salsa_regular</item>
         <item name="lineHeight">59sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:fontWeight" tools:targetApi="o">400</item>

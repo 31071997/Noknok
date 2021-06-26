@@ -17,7 +17,7 @@
 
     <style name="noknok">
         <item name="android:textSize">48sp</item>
-        <item name="android:textColor">@color/display_title_description</item>
+        <item name="android:textColor">#FF9E44</item>
         <item name="android:fontFamily">@font/salsa_regular</item>
         <item name="lineHeight">59sp</item>
         <item name="android:textStyle">normal</item>
@@ -43,6 +43,13 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#5E5D5D</item>
         <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="request_edittext">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginTop">0dp</item>
     </style>
 
     <style name="forget_your">
@@ -209,6 +216,12 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="acceptance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF7F08</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
     <style name="footer_font">
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">11sp</item>
@@ -243,7 +256,7 @@
         <item name="fontFamily">@font/roboto_regular</item>
         <item name="lineHeight">20sp</item>
         <item name="android:textSize">17sp</item>
-        <item name="android:textColor">@color/favourites_cook</item>
+        <item name="android:textColor">#6F6F6F</item>
     </style>
     <style name="order_time">
         <item name="fontFamily">@font/roboto_regular</item>
@@ -255,7 +268,7 @@
         <item name="fontFamily">@font/roboto_regular</item>
         <item name="lineHeight">22sp</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/cart_description</item>
+        <item name="android:textColor">#514F4F</item>
         <item name="android:textStyle">normal</item>
     </style>
     <style name="check_out_subtotal">
@@ -294,7 +307,7 @@
         <item name="lineHeight">15sp</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/favourites_cook</item>
+        <item name="android:textColor">#606060</item>
     </style>
 
     <style name="cook_description">
@@ -310,6 +323,13 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="request_btn">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#A8000000</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textStyle">normal</item>
     </style>
 
     <style name="request_edittext_title">
