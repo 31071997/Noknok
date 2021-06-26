@@ -60,5 +60,6 @@
     <string name="rcpname">Recipe Name</string>
     <string name="fourppl">(minimum 4 people or above)</string>
     <string name="upload_image">upload image</string>
+    <string name="view_profile">view profile</string>
     <string name="rqst_acptnc">You can order from your cart  <br /><br />when the requests is confirmed</string>
 </resources>
