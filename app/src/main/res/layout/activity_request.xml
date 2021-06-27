@@ -79,7 +79,6 @@
             android:background="@drawable/ic_rectangle_132"
             android:text="Recipe Details"
             android:gravity="top|left"
-            android:textColor="#000000"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:textAppearance="@style/request_edittext"
@@ -121,7 +120,7 @@
             android:layout_marginTop="32dp" />
 
         <EditText
-            android:id="@+id/editTextTextCookEmailID"
+            android:id="@+id/editTextTextCookEmail"
             android:layout_width="323dp"
             android:textFontWeight="300"
             android:lineHeight="19sp"
@@ -130,7 +129,6 @@
             android:background="@drawable/ic_rectangle_132"
             android:text="Recipe Details"
             android:gravity="top|left"
-            android:textColor="#000000"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:textAppearance="@style/request_edittext"

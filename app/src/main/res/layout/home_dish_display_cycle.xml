@@ -81,7 +81,7 @@
                         android:text="700 BDT"
                         android:textAppearance="@style/price_total"
                         android:textFontWeight="500"
-                        android:textColor="@color/display_title"/>
+                        android:textColor="@color/display_title_description"/>
                     <ImageButton
                         android:id="@+id/cart_button"
                         android:layout_width="wrap_content"
