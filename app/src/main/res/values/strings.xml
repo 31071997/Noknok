@@ -61,5 +61,6 @@
     <string name="fourppl">(minimum 4 people or above)</string>
     <string name="upload_image">upload image</string>
     <string name="view_profile">view profile</string>
-    <string name="rqst_acptnc">You can order from your cart  <br /><br />when the requests is confirmed</string>
+    <string name="request_acceptance">You can order from your cart  <br /><br />when the requests is confirmed</string>
+    <string name="order_acceptance">You will be notified when the  <br /><br />order is confirmed</string>
 </resources>

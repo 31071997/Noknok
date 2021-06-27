@@ -98,37 +98,19 @@
             android:layout_marginTop="35dp" />
 
         <Button
-            android:text="@string/upload_image"
             android:layout_width="194dp"
             android:layout_height="30dp"
             android:layout_marginLeft="27dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/ic_rectangle_348" />
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" >
-                <TextView
-                    android:layout_width="97dp"
-                    android:layout_height="20dp"
-                    android:fontFamily="@font/roboto_regular"
-                    android:textFontWeight="400"
-                    android:lineHeight="18sp"
-                    android:layout_marginLeft="18dp"
-                    android:layout_marginTop="5dp"
-                    android:textAppearance="@style/request_btn"
-                    />
-                <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="25dp"
-                    android:id="@+id/sign_up_here"
-                    android:fontFamily="@font/roboto_regular"
-                    android:textFontWeight="500"
-                    android:lineHeight="13sp"
-                    android:text="@string/sign_up_here"
-                    android:textAppearance="@style/sign_up_here"
-                    />
-            </LinearLayout>
+            android:layout_marginRight="24dp"
+            android:background="@drawable/ic_rectangle_348"
+            android:drawableRight="@drawable/icons8_image_30px_1_1"
+            android:drawablePadding="5dp"
+            android:text="@string/upload_image"
+            android:textAppearance="@style/request_btn" />
+
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="19dp"
@@ -137,6 +119,25 @@
             android:layout_weight="400"
             android:layout_marginLeft="27dp"
             android:layout_marginTop="32dp" />
+
+        <EditText
+            android:id="@+id/editTextTextCookEmailID"
+            android:layout_width="323dp"
+            android:textFontWeight="300"
+            android:lineHeight="19sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="27dp"
+            android:background="@drawable/ic_rectangle_132"
+            android:text="Recipe Details"
+            android:gravity="top|left"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="@style/request_edittext"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_height="119dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
 
     </LinearLayout>
 </ScrollView>
