@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/ic_rectangle_320">
+
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="26sp"
+            android:lines="3"
+            android:text="@string/order_acceptance"
+            android:textAppearance="@style/acceptance"
+            android:textAlignment="center"
+            android:textFontWeight="300"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ic_rectangle_133"
+            android:text="Okay"
+            android:lineHeight="20dp"
+            android:textAppearance="@style/login_3"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

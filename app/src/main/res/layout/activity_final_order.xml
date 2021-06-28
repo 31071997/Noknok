@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:text="You Ordered"
+        android:textAppearance="@style/cart_description"
+        android:textFontWeight="400" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="16dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="700"
+            android:lineHeight="17sp"
+            android:text="2 X Shorshe Ilish 1kg "
+            android:textAppearance="@style/food_name_amount"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="700"
+            android:lineHeight="17sp"
+            android:layout_alignParentRight="true"
+            android:text="780 BDT"
+            android:textAppearance="@style/food_price"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="16dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="700"
+            android:lineHeight="17sp"
+            android:text="2 X Shorshe Ilish 1kg "
+            android:textAppearance="@style/food_name_amount"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="700"
+            android:lineHeight="17sp"
+            android:layout_alignParentRight="true"
+            android:text="780 BDT"
+            android:textAppearance="@style/food_price"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="11dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="Total"
+            android:textAppearance="@style/cart_description"
+            android:textFontWeight="400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="700"
+            android:lineHeight="17sp"
+            android:layout_alignParentRight="true"
+            android:text="1400 BDT"
+            android:layout_marginLeft="260dp"
+            android:textAppearance="@style/food_price"
+            />
+    </LinearLayout>
+
+</LinearLayout>
