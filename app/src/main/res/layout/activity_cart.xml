@@ -33,7 +33,7 @@
                 android:layout_weight="500"
                 android:text="@string/check_out"
                 android:textAppearance="@style/check_out_subtotal"
-                android:textColor="@color/display_title" />
+                android:textColor="@color/display_title_description" />
 
         </LinearLayout>
 

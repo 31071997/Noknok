@@ -61,6 +61,16 @@
     <string name="fourppl">(minimum 4 people or above)</string>
     <string name="upload_image">upload image</string>
     <string name="view_profile">view profile</string>
+    <string name="cook_profile_number">64</string>
+    <string name="rating">43.5(123)</string>
+    <string name="sold">Dish Sold</string>
+    <string name="dish_request">Request for any special dishes</string>
+    <string name="request">Request</string>
+    <string name="scheduled_dishes">Scheduled Dishes</string>
+    <string name="request_rule">required 4 portions minimum for all special request</string>
+    <string name="like">Like</string>
+    <string name="rate">Rate</string>
+    <string name="review">I like very much food bla bla bla bla and also like food bla bla , i want to make food bla bla bla , and also want you to eat my my food bla bla bla , cholet thakbe till bla bla</string>
     <string name="request_acceptance">You can order from your cart  <br /><br />when the requests is confirmed</string>
     <string name="order_acceptance">You will be notified when the  <br /><br />order is confirmed</string>
 </resources>

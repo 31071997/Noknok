@@ -1,56 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <RelativeLayout
+        android:layout_marginTop="17dp"
+        android:gravity="center_horizontal"
+        >
+        <Button
+            android:id="@+id/filter"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            <View
-                android:layout_width="42dp"
-                android:layout_height="19dp"
-                android:background="@drawable/ic_rectangle_253"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="177dp"/>
-            <TextView
-                android:layout_width="29dp"
-                android:layout_height="16dp"
-                android:gravity="center"
-                android:layout_marginTop="178dp"
-                android:layout_marginLeft="23dp"
-                android:text="@string/date"
-                android:textAppearance="@style/date"
-                android:lineHeight="16sp"/>
-
-        </RelativeLayout>
-        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_rectangle_263"
+            android:text="@string/filter"
+            android:textAppearance="@style/date"/>
+        <Button
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_rectangle_263"
+            android:text="@string/date"
+            android:textAppearance="@style/date"/>
+        <Button
+            android:id="@+id/categories"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="right">
-            android:fontFamily="@font/RobotoRegular">
-            <View
-                android:layout_width="76dp"
-                android:layout_height="19dp"
-                android:background="@drawable/ic_rectangle_254"
-                android:layout_marginRight="19dp"
-                android:layout_marginTop="177dp"/>
-            <TextView
-                android:layout_width="69dp"
-                android:layout_height="16dp"
-                android:gravity="center"
-                android:layout_marginTop="177dp"
-                android:layout_marginLeft="4dp"
-                android:text="@string/categories"
-                android:textAppearance="@style/date"
-                android:lineHeight="16sp"
-                android:fontFamily="@font/roboto_regular"/>
-        </RelativeLayout>
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_rectangle_262"
+            android:text="@string/categories"
+            android:textAppearance="@style/date"/>
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -31,7 +31,7 @@
                         android:textFontWeight="400"
                         android:layout_marginLeft="9dp"
                         android:layout_gravity="center_vertical"
-                        android:textColor="@color/cart"
+                        android:textColor="@color/cart_description"
                         />
                 </LinearLayout>
                 <TextView
@@ -50,7 +50,7 @@
                     android:layout_gravity="center_vertical"
                     android:text="@string/subtotal"
                     android:textAppearance="@style/subtotal"
-                    android:textColor="@color/display_title"/>
+                    android:textColor="@color/display_title_description"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="19dp"
