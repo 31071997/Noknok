@@ -63,7 +63,7 @@
             android:layout_marginTop="35dp"
             android:layout_marginLeft="27dp"
             android:textFontWeight="300"
-            android:hint="(Optiona)"
+            android:hint="(Optional)"
             android:inputType="textEmailAddress"
             android:textAppearance="@style/request_edittext_title"
             android:textColor="#A6A6A6"
@@ -98,15 +98,14 @@
             android:layout_marginTop="35dp" />
 
         <Button
-            android:layout_width="194dp"
+            android:layout_width="130dp"
             android:layout_height="30dp"
             android:layout_marginLeft="27dp"
             android:layout_marginTop="20dp"
-            android:layout_marginRight="24dp"
             android:background="@drawable/ic_rectangle_348"
             android:drawableRight="@drawable/icons8_image_30px_1_1"
             android:drawablePadding="5dp"
-            android:text="@string/upload_image"
+            android:text="Upload Image"
             android:textAppearance="@style/request_btn" />
 
 
@@ -119,6 +118,36 @@
             android:layout_weight="400"
             android:layout_marginLeft="27dp"
             android:layout_marginTop="32dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="27dp"
+                android:background="@drawable/ic_rectangle_130"
+                android:text="Wed, 21 Nov"
+                android:layout_gravity="center"
+                android:textAppearance="@style/request_btn" />
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="27dp"
+                android:background="@drawable/ic_rectangle_130"
+                android:text="4:32 PM"
+                android:layout_gravity="center"
+                android:textAppearance="@style/request_btn" />
+        </LinearLayout>
+
+        <DatePicker android:id="@+id/datePicker4"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:visibility="gone"
+            />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -160,6 +189,16 @@
             android:layout_height="119dp"
             android:ems="10"
             android:inputType="textEmailAddress" />
+
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ic_rectangle_133"
+            android:text="Okay"
+            android:lineHeight="20dp"
+            android:textAppearance="@style/login_3"/>
 
     </LinearLayout>
 </ScrollView>
