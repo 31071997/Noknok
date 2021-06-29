@@ -120,36 +120,41 @@
             android:layout_marginLeft="27dp"
             android:layout_marginTop="32dp" />
 
-        <EditText
-            android:layout_width="323dp"
-            android:textFontWeight="300"
-            android:lineHeight="19sp"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="27dp"
-            android:background="@drawable/ic_rectangle_132"
-            android:text="Recipe Details"
-            android:gravity="top|left"
-            android:textColor="#000000"
-            android:paddingLeft="10dp"
-            android:paddingTop="10dp"
-            android:textAppearance="@style/request_edittext"
-            android:fontFamily="@font/roboto_regular"
-            android:layout_height="119dp"
-            android:ems="10"
-            android:inputType="textEmailAddress" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="@style/request_titles"
+                android:layout_weight="400"
+                android:layout_marginLeft="27dp"
+                android:text="Delivery Address in Details" />
+
+            <Button
+                android:layout_width="26dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="140dp"
+                android:text="Edit"
+                android:background="transparent"
+                android:textAppearance="@style/food_name_amount"
+                android:textFontWeight="1000" />
+        </LinearLayout>
 
         <EditText
-            android:layout_width="323dp"
+            android:layout_width="350dp"
             android:textFontWeight="300"
-            android:lineHeight="19sp"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="27dp"
+            android:lineHeight="76sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
             android:background="@drawable/ic_rectangle_132"
-            android:text="Recipe Details"
-            android:gravity="top|left"
             android:textColor="#000000"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
+            android:gravity="top|left"
             android:textAppearance="@style/request_edittext"
             android:fontFamily="@font/roboto_regular"
             android:layout_height="119dp"

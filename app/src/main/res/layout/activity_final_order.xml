@@ -10,7 +10,7 @@
         android:layout_height="20dp"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:text="You Ordered"
         android:textAppearance="@style/cart_description"
         android:textFontWeight="400" />
@@ -23,8 +23,7 @@
         android:layout_marginTop="40dp">
         <TextView
             android:layout_width="300dp"
-            android:layout_height="16dp"
-            android:fontFamily="@font/roboto_regular"
+            android:layout_height="18dp"
             android:textFontWeight="700"
             android:lineHeight="17sp"
             android:text="2 X Shorshe Ilish 1kg "
@@ -33,13 +32,13 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="16dp"
+            android:layout_height="18dp"
             android:fontFamily="@font/roboto_regular"
             android:textFontWeight="700"
             android:lineHeight="17sp"
             android:layout_alignParentRight="true"
             android:text="780 BDT"
-            android:textAppearance="@style/food_price"
+            android:textAppearance="@style/final_description"
             />
     </LinearLayout>
 
@@ -51,7 +50,7 @@
         android:layout_marginTop="7dp">
         <TextView
             android:layout_width="300dp"
-            android:layout_height="16dp"
+            android:layout_height="18dp"
             android:fontFamily="@font/roboto_regular"
             android:textFontWeight="700"
             android:lineHeight="17sp"
@@ -61,13 +60,12 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="16dp"
-            android:fontFamily="@font/roboto_regular"
+            android:layout_height="18dp"
             android:textFontWeight="700"
             android:lineHeight="17sp"
             android:layout_alignParentRight="true"
             android:text="780 BDT"
-            android:textAppearance="@style/food_price"
+            android:textAppearance="@style/final_description"
             />
     </LinearLayout>
 
@@ -83,19 +81,174 @@
             android:layout_gravity="center_vertical"
             android:text="Total"
             android:textAppearance="@style/cart_description"
-            android:textFontWeight="400" />
+            android:textFontWeight="500" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="17dp"
-            android:fontFamily="@font/roboto_regular"
+            android:layout_height="18dp"
             android:textFontWeight="700"
             android:lineHeight="17sp"
             android:layout_alignParentRight="true"
             android:text="1400 BDT"
             android:layout_marginLeft="260dp"
-            android:textAppearance="@style/food_price"
+            android:textAppearance="@style/final_description"
             />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="Delivery Time"
+            android:textAppearance="@style/cart_description"
+            android:textFontWeight="400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:textFontWeight="700"
+            android:lineHeight="17sp"
+            android:layout_alignParentRight="true"
+            android:text="4:20 PM, 21st Nov"
+            android:layout_marginLeft="160dp"
+            android:textAppearance="@style/final_description"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="Delivery Address in Details"
+            android:textAppearance="@style/cart_description"
+            android:textFontWeight="400" />
+
+        <Button
+            android:layout_width="26dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="140dp"
+            android:text="Edit"
+            android:background="transparent"
+            android:textAppearance="@style/food_name_amount"
+            android:textFontWeight="1000" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="350dp"
+        android:textFontWeight="300"
+        android:lineHeight="76sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/ic_rectangle_132"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:gravity="top|left"
+        android:textAppearance="@style/request_edittext"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="119dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="(60% delivery fee depends with sellers location)"
+        android:textAppearance="@style/delivery_description"
+        android:textFontWeight="400" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Personal Info"
+        android:textAppearance="@style/cart_description"
+        android:textFontWeight="400" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:lineHeight="18sp"
+        android:text="Foodie Name"
+        android:textAppearance="@style/final_description"
+        android:textFontWeight="700" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textFontWeight="700"
+        android:lineHeight="17sp"
+        android:layout_alignParentRight="true"
+        android:text="Contact Number"
+        android:textAppearance="@style/final_description"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:text="Payment Method"
+        android:textAppearance="@style/cart_description"
+        android:textFontWeight="400" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rdGroup"
+        android:layout_below="@+id/txtView">
+
+        <RadioButton
+            android:id="@+id/rdbJava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_marginLeft="20dp"
+            android:text="Cash on Delivery"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/rdbPython"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_marginLeft="30dp"
+            android:text="Bkash"
+            android:onClick="onRadioButtonClicked"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_rectangle_133"
+        android:text="Order"
+        android:lineHeight="20dp"
+        android:textAppearance="@style/login_3"/>
+
 
 </LinearLayout>
