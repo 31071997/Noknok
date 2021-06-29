@@ -73,4 +73,6 @@
     <string name="review">I like very much food bla bla bla bla and also like food bla bla , i want to make food bla bla bla , and also want you to eat my my food bla bla bla , cholet thakbe till bla bla</string>
     <string name="request_acceptance">You can order from your cart  <br /><br />when the requests is confirmed</string>
     <string name="order_acceptance">You will be notified when the  <br /><br />order is confirmed</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
