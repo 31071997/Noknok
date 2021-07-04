@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal">
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:layout_width="351dp"
+                android:layout_width="172dp"
                 android:layout_height="180dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginLeft="20dp"
@@ -57,43 +57,25 @@
                 android:layout_marginTop="225dp"
                 android:layout_marginLeft="50dp"/>
             <LinearLayout
+                android:layout_marginTop="250dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginLeft="23dp"
                 android:layout_marginRight="23dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="260dp"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="113dp"
-                        android:layout_height="wrap_content"
-                        android:text="700 BDT"
-                        android:textAppearance="@style/price_total"
-                        android:textFontWeight="500"
-                        android:textColor="@color/display_title_description"/>
-                    <ImageButton
-                        android:id="@+id/cart_button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="transparent"
-                        android:layout_marginLeft="205dp"
-                        android:src="@drawable/ic_cart_yellow" />
-                </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="blah blah blah"
-                    android:textAppearance="@style/price_total"
+                    android:text="Jhal Mangsho with dhone pata"
+                    android:textAppearance="@style/cook_name"
                     android:textColor="@color/dish_description"/>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="113dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/availability"
+                    android:text="700 BDT"
                     android:textAppearance="@style/price_total"
-                    android:textColor="@color/availability"/>
+                    android:textFontWeight="500"
+                    android:textColor="@color/display_title_description"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 </LinearLayout>
