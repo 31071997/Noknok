@@ -3,6 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textFontWeight="400"
+        android:lineHeight="25sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        android:text="Food Available between"
+        android:textAppearance="@style/account_profile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:textFontWeight="300"
+        android:lineHeight="25sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="14dp"
+        android:text="12:00 AM - 11:45 PM"
+        android:textAppearance="@style/filter_attribute"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
