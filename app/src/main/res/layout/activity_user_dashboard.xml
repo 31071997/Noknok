@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_rectangle_404"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="19.5sp"
+            android:text="Order View"
+            android:textAppearance="@style/user_dashboard"
+            android:textFontWeight="800" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ic_rectangle_400"
+                android:fontFamily="@font/roboto_regular"
+                android:lineHeight="19.5sp"
+                android:textAlignment="center"
+                android:paddingTop="13dp"
+                android:text="Today"
+                android:textAppearance="@style/user_dashboard"
+                android:textFontWeight="400"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ic_rectangle_400"
+                android:fontFamily="@font/roboto_regular"
+                android:lineHeight="19.5sp"
+                android:textAlignment="center"
+                android:paddingTop="13dp"
+                android:text="Tomorrow"
+                android:textAppearance="@style/user_dashboard"
+                android:textFontWeight="400"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ic_rectangle_400"
+                android:fontFamily="@font/roboto_regular"
+                android:lineHeight="19.5sp"
+                android:textAlignment="center"
+                android:paddingTop="13dp"
+                android:text="Later"
+                android:textAppearance="@style/user_dashboard"
+                android:textFontWeight="400"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_rectangle_404"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="19.5sp"
+            android:text="Payment"
+            android:textAppearance="@style/user_dashboard"
+            android:textFontWeight="800" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/ic_rectangle_403"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="18dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:lineHeight="20sp"
+                        android:text="Today"
+                        android:textAppearance="@style/user_dashboard"
+                        android:textFontWeight="500" />
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/ic_rectangle_411"
+                        android:fontFamily="@font/roboto_regular"
+                        android:lineHeight="19.5sp"
+                        android:textAlignment="center"
+                        android:paddingTop="11dp"
+                        android:text="440 $"
+                        android:textAppearance="@style/user_dashboard"
+                        android:textFontWeight="400"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="18dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:lineHeight="20sp"
+                        android:text="Week"
+                        android:textAppearance="@style/user_dashboard"
+                        android:textFontWeight="500" />
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/ic_rectangle_411"
+                        android:fontFamily="@font/roboto_regular"
+                        android:lineHeight="19.5sp"
+                        android:textAlignment="center"
+                        android:paddingTop="11dp"
+                        android:text="440 $"
+                        android:textAppearance="@style/user_dashboard"
+                        android:textFontWeight="400"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="18dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:lineHeight="20sp"
+                        android:text="Month"
+                        android:textAppearance="@style/user_dashboard"
+                        android:textFontWeight="500" />
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/ic_rectangle_411"
+                        android:fontFamily="@font/roboto_regular"
+                        android:lineHeight="19.5sp"
+                        android:textAlignment="center"
+                        android:paddingTop="11dp"
+                        android:text="440 $"
+                        android:textAppearance="@style/user_dashboard"
+                        android:textFontWeight="400"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="18dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:lineHeight="20sp"
+                        android:text="a/c fee"
+                        android:textAppearance="@style/user_dashboard"
+                        android:textFontWeight="500" />
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/ic_rectangle_411"
+                        android:fontFamily="@font/roboto_regular"
+                        android:lineHeight="19.5sp"
+                        android:textAlignment="center"
+                        android:paddingTop="11dp"
+                        android:text="440 $"
+                        android:textAppearance="@style/user_dashboard"
+                        android:textFontWeight="400"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_rectangle_415"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="11dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:lineHeight="19.5sp"
+                    android:text="Invest"
+                    android:textAppearance="@style/user_dashboard"
+                    android:textFontWeight="800" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="88dp"
+                    android:layout_marginTop="11dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:lineHeight="19.5sp"
+                    android:text="Edit"
+                    android:textAppearance="@style/user_dashboard_edit"
+                    android:textFontWeight="800" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="163dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_rectangle_418"
+                android:fontFamily="@font/roboto_regular"
+                android:lineHeight="19.5sp"
+                android:textAlignment="center"
+                android:paddingTop="11dp"
+                android:text="13000 $"
+                android:textAppearance="@style/user_dashboard"
+                android:textFontWeight="400"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/ic_rectangle_415"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="11dp"
+                android:fontFamily="@font/roboto_regular"
+                android:lineHeight="19.5sp"
+                android:text="Gain"
+                android:textAppearance="@style/user_dashboard"
+                android:textFontWeight="800" />
+
+            <TextView
+                android:layout_width="163dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_rectangle_418"
+                android:fontFamily="@font/roboto_regular"
+                android:lineHeight="19.5sp"
+                android:textAlignment="center"
+                android:paddingTop="11dp"
+                android:text="26000 $"
+                android:textAppearance="@style/user_dashboard"
+                android:textFontWeight="400"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_rectangle_404"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="19.5sp"
+            android:text="Add Dish"
+            android:textAppearance="@style/user_dashboard"
+            android:textFontWeight="800" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="19.5sp"
+            android:text=">"
+            android:textAppearance="@style/user_dashboard"
+            android:textFontWeight="1000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_rectangle_404"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="19.5sp"
+            android:text="Add Offer"
+            android:textAppearance="@style/user_dashboard"
+            android:textFontWeight="800" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="19.5sp"
+            android:text=">"
+            android:textAppearance="@style/user_dashboard"
+            android:textFontWeight="1000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_rectangle_404"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="19.5sp"
+            android:text="Special Request"
+            android:textAppearance="@style/user_dashboard"
+            android:textFontWeight="800" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="19.5sp"
+            android:text=">"
+            android:textAppearance="@style/user_dashboard"
+            android:textFontWeight="1000" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
