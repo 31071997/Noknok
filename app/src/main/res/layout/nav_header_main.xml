@@ -20,33 +20,64 @@
         android:text="Filters"
         android:textAppearance="@style/account_show_username"
         android:textFontWeight="1000" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:fontFamily="@font/roboto_regular"
-            android:textFontWeight="400"
-            android:lineHeight="25sp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="45dp"
-            android:text="Food Available between"
-            android:textAppearance="@style/account_profile" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textFontWeight="400"
+        android:lineHeight="25sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        android:text="Food Available between"
+        android:textAppearance="@style/account_profile"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="21dp"
-            android:textFontWeight="300"
-            android:lineHeight="25sp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="14dp"
-            android:text="12:00 AM - 11:45 PM"
-            android:textAppearance="@style/filter_attribute"
-            />
-        <SeekBar
-            android:id="@+id/seekBar1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:pointerIcon="zoom_in"
-            android:outlineSpotShadowColor="@color/display_title_description"
-            android:outlineAmbientShadowColor="@color/display_title_description"
-            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:textFontWeight="300"
+        android:lineHeight="25sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="14dp"
+        android:text="12:00 AM - 11:45 PM"
+        android:textAppearance="@style/filter_attribute"/>
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:pointerIcon="zoom_in"
+        android:thumbTint="@color/display_title_description"
+        android:progressTint="@color/display_title_description"
+        android:progressBackgroundTintMode="multiply"
+        android:outlineSpotShadowColor="@color/display_title_description"
+        android:outlineAmbientShadowColor="@color/display_title_description"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textFontWeight="400"
+        android:lineHeight="25sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        android:text="Price per dishes"
+        android:textAppearance="@style/account_profile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:textFontWeight="300"
+        android:lineHeight="25sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="14dp"
+        android:text="0 BDT -  Max"
+        android:textAppearance="@style/filter_attribute"/>
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:pointerIcon="zoom_in"
+        android:thumbTint="@color/display_title_description"
+        android:progressTint="@color/display_title_description"
+        android:progressBackgroundTintMode="multiply"
+        android:outlineSpotShadowColor="@color/display_title_description"
+        android:outlineAmbientShadowColor="@color/display_title_description"/>
 </LinearLayout>
