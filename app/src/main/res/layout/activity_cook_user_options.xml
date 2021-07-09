@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:elevation="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="56dp"
+            android:background="@drawable/icons8_user_30px_2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="400"
+            android:lineHeight="21sp"
+            android:layout_marginLeft="18dp"
+            android:text="Profile"
+            android:textAppearance="@style/cook_user"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginLeft="180dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="21sp"
+            android:text="Edit"
+            android:textAppearance="@style/user_dashboard_edit"
+            android:textFontWeight="800" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="56dp"
+            android:background="@drawable/icons8_attach_30px_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="400"
+            android:lineHeight="21sp"
+            android:layout_marginLeft="18dp"
+            android:text="Add Dish"
+            android:textAppearance="@style/cook_user"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="56dp"
+            android:background="@drawable/icons8_edit_30px_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="400"
+            android:lineHeight="21sp"
+            android:layout_marginLeft="18dp"
+            android:text="Edit Dish"
+            android:textAppearance="@style/cook_user"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="56dp"
+            android:background="@drawable/icons8_sale_64px_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="400"
+            android:lineHeight="21sp"
+            android:layout_marginLeft="18dp"
+            android:text="Offer"
+            android:textAppearance="@style/cook_user"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="56dp"
+            android:background="@drawable/icons8_archeology_30px_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="400"
+            android:lineHeight="21sp"
+            android:layout_marginLeft="18dp"
+            android:text="@string/order_payment_history"
+            android:textAppearance="@style/cook_user" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="56dp"
+            android:background="@drawable/icons8_help_26px_1_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="400"
+            android:lineHeight="21sp"
+            android:layout_marginLeft="18dp"
+            android:text="@string/help_support"
+            android:textAppearance="@style/cook_user"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="56dp"
+            android:background="@drawable/icons8_sign_language_p_24px_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="400"
+            android:lineHeight="21sp"
+            android:layout_marginLeft="18dp"
+            android:text="Sign Out"
+            android:textAppearance="@style/cook_user"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="230dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="1000"
+            android:lineHeight="21sp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/terms_conditions"
+            android:textAppearance="@style/cook_user"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="1000"
+            android:lineHeight="21sp"
+            android:layout_marginLeft="90dp"
+            android:text="Privacy Policy"
+            android:textAppearance="@style/cook_user"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

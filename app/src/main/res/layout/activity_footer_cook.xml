@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_gravity="bottom"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="41dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:src="@drawable/Group_160" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:textAppearance="@style/footer_font_cook"
+            android:textFontWeight="400" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="41dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/love">
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:src="@drawable/Group_159" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Record"
+            android:textAppearance="@style/footer_font_cook"
+            android:textFontWeight="400" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="41dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/search">
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:src="@drawable/Group_136" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textAppearance="@style/footer_font_cook"
+            android:textFontWeight="400" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="41dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:src="@drawable/Group_137" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textAppearance="@style/footer_font_cook"
+            android:textFontWeight="400" />
+    </LinearLayout>
+
+</LinearLayout>
