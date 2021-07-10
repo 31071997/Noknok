@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Noknok">
-        <activity android:name=".Footer_Cook"></activity>
+        <activity android:name=".Profile_edits"></activity>
+        <activity android:name=".Footer_Cook" />
         <activity android:name=".Cook_user_options" />
         <activity android:name=".Checklist" />
         <activity android:name=".User_Dashboard" />
