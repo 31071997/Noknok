@@ -149,11 +149,6 @@
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/share"
-                    android:layout_gravity="right" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -218,6 +213,15 @@
                         android:layout_marginLeft="65dp"
                         android:textFontWeight="700"/>
                 </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/edit"
+                        android:textAppearance="@style/cook_name"
+                        android:textColor="@color/edit"
+                        android:layout_marginLeft="320dp"
+                        android:layout_marginRight="34dp"
+                        android:layout_marginTop="19dp"/>
             </LinearLayout>
             <ScrollView
                 android:layout_width="match_parent"
@@ -229,13 +233,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="13dp">
-                    <TextView
+                    <FrameLayout
                         android:layout_width="match_parent"
-                        android:layout_height="39dp"
-                        android:text="@string/review"
-                        android:style="@style/cook_name"
-                        android:textFontWeight="300"
-                        android:textColor="@color/review"/>
+                        android:layout_height="wrap_content"
+                        android:id="@+id/review">
+                        <!--will be replaced by cycle  fragment..-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="39dp"
+                            android:text="@string/review"
+                            android:style="@style/cook_name"
+                            android:textFontWeight="300"
+                            android:textColor="@color/review"/>
+                    </FrameLayout>
                 </ScrollView>
             </ScrollView>
             <LinearLayout
@@ -278,7 +288,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/scheduled_dishes"
+                    android:text="@string/active_signature_items"
                     android:textColor="@color/cart_description"
                     android:textFontWeight="500"/>
                 <ImageButton
@@ -335,7 +345,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/scheduled_dishes"
+                    android:text="@string/active_schedule_items"
                     android:textColor="@color/cart_description"
                     android:textFontWeight="500"/>
                 <ImageButton

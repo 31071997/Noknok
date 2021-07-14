@@ -84,10 +84,13 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
     <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="signature_dishes">Signature Dishes</string>
+    <string name="active_signature_items">Active signature items</string>
+    <string name="active_schedule_items">Active schedule items</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="order_payment_history"><![CDATA[Order & Payment History]]></string>
     <string name="help_support"><![CDATA[Help & Support]]></string>
     <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="edit">Edit</string>
 </resources>
