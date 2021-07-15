@@ -103,12 +103,6 @@
                                     android:layout_marginBottom="13dp"
                                     android:textAppearance="@style/cook_description"
                                     android:textFontWeight="500"/>
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/colon"
-                                    android:textAppearance="@style/cook_description"
-                                    android:textFontWeight="500"/>
                             </LinearLayout>
                             <LinearLayout
                                 android:layout_width="wrap_content"
@@ -135,13 +129,6 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Agrabad,Chattogram"
-                                    android:textAppearance="@style/cook_description"
-                                    android:textFontWeight="500"
-                                    android:textColor="@color/cart_description"/>
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="6.00 pm - 8.00 am"
                                     android:textAppearance="@style/cook_description"
                                     android:textFontWeight="500"
                                     android:textColor="@color/cart_description"/>
@@ -225,17 +212,17 @@
             </LinearLayout>
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="78dp"
                 android:layout_marginTop="39dp"
                 android:layout_marginLeft="45dp"
                 android:layout_marginRight="45dp">
                 <ScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginBottom="13dp">
                     <FrameLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:id="@+id/review">
                         <!--will be replaced by cycle  fragment..-->
                         <TextView
@@ -248,37 +235,7 @@
                     </FrameLayout>
                 </ScrollView>
             </ScrollView>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="26dp"
-                android:layout_marginLeft="35dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/dish_request"
-                    android:style="@style/dish_request"
-                    android:textColor="@color/favourites_cook"
-                    android:textFontWeight="500"/>
-                <TextView
-                    android:layout_marginTop="13dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/request_rule"
-                    android:textAppearance="@style/dish_request"
-                    android:textColor="@color/request_rule"
-                    android:textFontWeight="400"/>
 
-                <Button
-                    android:layout_width="127dp"
-                    android:layout_height="25dp"
-                    android:layout_marginTop="17dp"
-                    android:background="@drawable/ic_request_background"
-                    android:textAppearance="@style/dish_request"
-                    android:text="@string/request"
-                    android:textColor="@color/white" />
-            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -331,7 +288,7 @@
                         android:id="@+id/scheduled_dish"/>
                     <!--included portion will be removedlater-->
                     <include
-                        layout="@layout/profile_dish_cycle"
+                        layout="@layout/home_dish_cycle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
@@ -388,7 +345,7 @@
                         android:id="@+id/signature_dish"/>
                     <!--included portion will be removedlater-->
                     <include
-                        layout="@layout/profile_dish_cycle"
+                        layout="@layout/home_dish_cycle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>

@@ -101,21 +101,27 @@
             </LinearLayout>
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="78dp"
                 android:layout_marginTop="39dp"
                 android:layout_marginLeft="45dp"
                 android:layout_marginRight="45dp">
                 <ScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginBottom="13dp">
-                    <TextView
+                    <FrameLayout
                         android:layout_width="match_parent"
-                        android:layout_height="39dp"
-                        android:text="@string/review"
-                        android:style="@style/cook_name"
-                        android:textFontWeight="300"
-                        android:textColor="@color/review"/>
+                        android:layout_height="match_parent"
+                        android:id="@+id/review">
+                        <!--will be replaced by cycle  fragment..-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="39dp"
+                            android:text="@string/review"
+                            android:style="@style/cook_name"
+                            android:textFontWeight="300"
+                            android:textColor="@color/review"/>
+                    </FrameLayout>
                 </ScrollView>
             </ScrollView>
             <LinearLayout
