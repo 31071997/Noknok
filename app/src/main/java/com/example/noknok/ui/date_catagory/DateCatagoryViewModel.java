@@ -1,14 +1,14 @@
-package com.example.noknok.ui.gallery;
+package com.example.noknok.ui.date_catagory;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class DateCatagoryViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public DateCatagoryViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is gallery fragment");
     }

@@ -80,39 +80,5 @@
         android:progressBackgroundTintMode="multiply"
         android:outlineSpotShadowColor="@color/display_title_description"
         android:outlineAmbientShadowColor="@color/display_title_description"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:fontFamily="@font/roboto_regular"
-        android:textFontWeight="400"
-        android:lineHeight="25sp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="45dp"
-        android:text="@string/categories"
-        android:textAppearance="@style/account_profile"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <Button
-                android:background="@drawable/ic_choice_button"
-
-                />
-        </LinearLayout>
-    </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:fontFamily="@font/roboto_regular"
-        android:textFontWeight="400"
-        android:lineHeight="25sp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="45dp"
-        android:text="@string/cuisine"
-        android:textAppearance="@style/account_profile"/>
 
 </LinearLayout>

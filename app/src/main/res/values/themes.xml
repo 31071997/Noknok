@@ -439,7 +439,7 @@
         <item name="lineHeight">17sp</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">#FA800000</item>
+        <item name="android:textColor">@color/delivery_description</item>
     </style>
 
     <style name="cook_user">

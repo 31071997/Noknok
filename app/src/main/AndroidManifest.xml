@@ -18,7 +18,6 @@
         <activity android:name=".Final_Order" />
         <activity android:name=".Selected_Food_Display" />
         <activity android:name=".Request" />
-        <activity android:name=".Filter" />
         <activity android:name=".Signup" />
         <activity android:name=".Account_profile" />
         <activity android:name=".Account_order" />
