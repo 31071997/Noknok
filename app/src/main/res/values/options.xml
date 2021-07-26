@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="salad">SALAD</string>
+    <string name="non_veg">NON-VEG</string>
+    <string name="groceries">GROCERIES</string>
+    <string name="veg">VEG</string>
+    <string name="frozen">FROZEN</string>
+    <string name="biriyani">BIRIYANI</string>
+    <string name="drinks">DRINKS</string>
+    <string name="desserts">DESSERTS</string>
+    <string name="daily_meal">DAILY MEAL</string>
+    <string name="pickles">PICKLES</string>
+    <string name="snacks">SNACKS</string>
+    <string name="pastry">PASTRY</string>
+    <string name="dairies">DAIRIES</string>
+    <string name="cake">CAKE</string>
+</resources>
