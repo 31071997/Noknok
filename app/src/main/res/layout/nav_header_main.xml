@@ -80,5 +80,11 @@
         android:progressBackgroundTintMode="multiply"
         android:outlineSpotShadowColor="@color/display_title_description"
         android:outlineAmbientShadowColor="@color/display_title_description"/>
-
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/view_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:background="transparent"/>
 </LinearLayout>
