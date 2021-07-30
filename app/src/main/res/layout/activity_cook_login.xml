@@ -75,6 +75,7 @@
         android:inputType="textEmailAddress" />
 
     <TextView
+        android:clickable="true"
         android:layout_width="140dp"
         android:layout_height="15dp"
         android:layout_marginTop="18dp"
@@ -115,6 +116,7 @@
             android:textAppearance="@style/dont_have_a"
             />
         <TextView
+            android:clickable="true"
             android:layout_width="100dp"
             android:layout_height="25dp"
             android:id="@+id/sign_up_here"
