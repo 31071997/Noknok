@@ -2,10 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:layout_marginTop="33dp"
     android:layout_marginLeft="31dp"
-    android:layout_marginRight="31dp">
+    android:layout_marginTop="33dp"
+    android:layout_marginRight="31dp"
+    android:orientation="vertical">
     <include
         layout="@layout/cook_profile_head"
         android:layout_width="match_parent"

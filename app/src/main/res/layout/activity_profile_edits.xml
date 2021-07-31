@@ -2,8 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -195,6 +194,61 @@
                 />
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="26dp">
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/ic_rectangle_372"
+                android:text="5 PM"
+                android:textAppearance="@style/edit_profile" />
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/ic_rectangle_372"
+                android:text="6 PM"
+                android:textAppearance="@style/edit_profile" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="17.85sp"
+            android:text="Dispalay Photo(recommended to give  your own photo)"
+            android:textAppearance="@style/edit_profile"
+            android:textFontWeight="1000" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_rectangle_348"
+            android:drawableRight="@drawable/icons8_image_30px_1_1"
+            android:drawablePadding="5dp"
+            android:text="Upload Image"
+            android:textAppearance="@style/edit_profile" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/ic_rectangle_275"
+            android:text="Login"
+            android:textAppearance="@style/login_2" />
 
     </LinearLayout>
 
