@@ -115,9 +115,33 @@
             android:textFontWeight="1000"
             android:lineHeight="17.85sp"
             android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            android:text="DROPDOWN MENU"
+            android:textAppearance="@style/dropdown_menu"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="1000"
+            android:lineHeight="17.85sp"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="25dp"
             android:text="Food Speciality"
             android:textAppearance="@style/edit_profile"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="1000"
+            android:lineHeight="17.85sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            android:text="DROPDOWN MENU"
+            android:textAppearance="@style/dropdown_menu"
             />
 
         <TextView

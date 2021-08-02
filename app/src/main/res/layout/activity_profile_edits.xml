@@ -205,7 +205,7 @@
                 android:layout_width="160dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="16dp"
-                android:background="@drawable/ic_rectangle_372"
+                android:background="@drawable/ic_rectangle_373"
                 android:text="5 PM"
                 android:textAppearance="@style/edit_profile" />
 
@@ -213,7 +213,7 @@
                 android:layout_width="160dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="16dp"
-                android:background="@drawable/ic_rectangle_372"
+                android:background="@drawable/ic_rectangle_373"
                 android:text="6 PM"
                 android:textAppearance="@style/edit_profile" />
 
@@ -248,9 +248,33 @@
             android:textFontWeight="1000"
             android:lineHeight="17.85sp"
             android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            android:text="DROPDOWN MENU"
+            android:textAppearance="@style/dropdown_menu"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="1000"
+            android:lineHeight="17.85sp"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="25dp"
             android:text="Food Category"
             android:textAppearance="@style/edit_profile"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="1000"
+            android:lineHeight="17.85sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            android:text="DROPDOWN MENU"
+            android:textAppearance="@style/dropdown_menu"
             />
 
         <TextView

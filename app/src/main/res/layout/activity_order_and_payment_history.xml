@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="324dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/ic_rectangle_358"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background=""
+                android:src="@drawable/ic_arrow_18" />>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:fontFamily="@font/roboto_regular"
+                android:textFontWeight="1000"
+                android:lineHeight="21sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="45dp"
+                android:text="@string/order_payment_history"
+                android:textAppearance="@style/cook_user" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="1000"
+            android:lineHeight="17.85sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            android:text="Select Time"
+            android:textAppearance="@style/edit_profile"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="26dp">
+
+            <Button
+                android:layout_width="97dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/ic_rectangle_380"
+                android:text="6/3/2021"
+                android:textFontWeight="500"
+                android:textAppearance="@style/account_order_reorder" />
+
+            <Button
+                android:layout_width="97dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ic_rectangle_380"
+                android:text="6/4/2021"
+                android:textFontWeight="500"
+                android:textAppearance="@style/account_order_reorder" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -94,4 +94,5 @@
     <string name="help_support"><![CDATA[Help & Support]]></string>
     <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
     <string name="edit">Edit</string>
+    <string name="order_payment_history"><![CDATA[Order & Payment History]]></string>
 </resources>
