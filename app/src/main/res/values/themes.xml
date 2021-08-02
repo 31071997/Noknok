@@ -454,6 +454,12 @@
         <item name="android:textStyle">normal</item>
     </style>
 
+    <style name="cuisine_button">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
     <style name="Theme.Noknok.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Noknok.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

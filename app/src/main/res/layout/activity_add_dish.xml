@@ -104,7 +104,31 @@
             android:lineHeight="17.85sp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="25dp"
-            android:text="Phone Number"
+            android:text="Cuisine"
+            android:textAppearance="@style/edit_profile"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="1000"
+            android:lineHeight="17.85sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:text="Food Speciality"
+            android:textAppearance="@style/edit_profile"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="1000"
+            android:lineHeight="17.85sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:text="Price"
             android:textAppearance="@style/edit_profile"
             />
 
@@ -123,77 +147,91 @@
             android:lineHeight="17.85sp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="25dp"
-            android:text="Email Id"
+            android:text="Available from"
             android:textAppearance="@style/edit_profile"
             />
-
-        <View
-            android:layout_width="350dp"
-            android:layout_height="2dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="40dp"
-            android:background="@drawable/ic_line_16"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="18dp"
-            android:fontFamily="@font/roboto_regular"
-            android:textFontWeight="1000"
-            android:lineHeight="17.85sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="25dp"
-            android:text="Home Address"
-            android:textAppearance="@style/edit_profile"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="18dp"
-            android:fontFamily="@font/roboto_regular"
-            android:textFontWeight="300"
-            android:lineHeight="17.85sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="25dp"
-            android:text="( to estimae customer coverage )"
-            android:textAppearance="@style/edit_profile"
-            />
-
-        <View
-            android:layout_width="350dp"
-            android:layout_height="2dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="2dp"
-            android:background="@drawable/ic_line_16"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="24dp">
+            android:layout_marginTop="26dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="18dp"
-                android:fontFamily="@font/roboto_regular"
-                android:textFontWeight="1000"
-                android:lineHeight="17.85sp"
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="28dp"
                 android:layout_marginLeft="16dp"
-                android:text="Opening Time"
-                android:textAppearance="@style/edit_profile"
-                />
+                android:background="@drawable/ic_rectangle_373"
+                android:text="Wed, 26th Nov"
+                android:textAppearance="@style/edit_profile" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="18dp"
                 android:fontFamily="@font/roboto_regular"
-                android:textFontWeight="1000"
+                android:textFontWeight="500"
                 android:lineHeight="17.85sp"
-                android:layout_marginLeft="100dp"
-                android:text="Closing Time"
+                android:layout_marginLeft="30dp"
+                android:text="to"
                 android:textAppearance="@style/edit_profile"
                 />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ic_rectangle_373"
+                android:text="Wed, 26th Nov"
+                android:textAppearance="@style/edit_profile" />
 
         </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="17.85sp"
+            android:text="Display Photo"
+            android:textAppearance="@style/edit_profile"
+            android:textFontWeight="1000" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_rectangle_348"
+            android:drawableRight="@drawable/icons8_image_30px_1_1"
+            android:drawablePadding="5dp"
+            android:text="Upload Image"
+            android:textAppearance="@style/edit_profile" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="28dp"
+            android:text="Add to Signature Dish"
+            android:textAppearance="@style/edit_profile"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Add to Signature Dish"
+            android:textAppearance="@style/edit_profile"/>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/ic_rectangle_275"
+            android:text="Submit"
+            android:textAppearance="@style/login_2" />
 
     </LinearLayout>
 

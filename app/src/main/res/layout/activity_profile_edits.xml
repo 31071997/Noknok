@@ -154,7 +154,7 @@
             android:lineHeight="17.85sp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="25dp"
-            android:text="( to estimae customer coverage )"
+            android:text="( to estimate customer coverage )"
             android:textAppearance="@style/edit_profile"
             />
 
@@ -222,18 +222,52 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="18dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="1000"
+            android:lineHeight="17.85sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:text="Cuisine"
+            android:textAppearance="@style/edit_profile"
+            />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/ic_rectangle_380"
+            android:text="Select"
+            android:textFontWeight="500"
+            android:textAppearance="@style/cuisine_button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textFontWeight="1000"
+            android:lineHeight="17.85sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:text="Food Category"
+            android:textAppearance="@style/edit_profile"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="25dp"
             android:fontFamily="@font/roboto_regular"
             android:lineHeight="17.85sp"
-            android:text="Dispalay Photo(recommended to give  your own photo)"
+            android:text="Display Photo(recommended to give  your own photo)"
             android:textAppearance="@style/edit_profile"
             android:textFontWeight="1000" />
 
         <Button
             android:layout_width="140dp"
             android:layout_height="30dp"
-            android:layout_marginLeft="27dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/ic_rectangle_348"
             android:drawableRight="@drawable/icons8_image_30px_1_1"
@@ -247,7 +281,7 @@
             android:layout_marginLeft="120dp"
             android:layout_marginTop="60dp"
             android:background="@drawable/ic_rectangle_275"
-            android:text="Login"
+            android:text="Save"
             android:textAppearance="@style/login_2" />
 
     </LinearLayout>
