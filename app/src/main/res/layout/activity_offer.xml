@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:elevation="5dp"
+    android:elevation="25dp"
     android:orientation="vertical">
 
     <LinearLayout
@@ -17,7 +17,7 @@
 
         <ImageButton
             android:layout_width="22dp"
-            android:layout_height="22dp"
+            android:layout_height="30dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:background=""
@@ -25,12 +25,12 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="22dp"
+            android:layout_height="30dp"
             android:fontFamily="@font/roboto_regular"
             android:textFontWeight="1000"
             android:lineHeight="21sp"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="80dp"
+            android:layout_marginLeft="60dp"
             android:text="Add Todays Offer"
             android:textAppearance="@style/cook_user"
             />

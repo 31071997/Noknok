@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Noknok">
-        <activity android:name=".Order_and_payment_history"></activity>
+        <activity android:name=".View_order"></activity>
+        <activity android:name=".Special_request" />
+        <activity android:name=".Order_and_payment_history" />
         <activity android:name=".Offer" />
         <activity android:name=".Add_Dish" />
         <activity android:name=".Cook_Login" />

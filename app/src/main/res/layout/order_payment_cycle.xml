@@ -12,29 +12,42 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="13dp"
+        android:layout_height="16dp"
         android:layout_marginTop="14dp"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="15sp"
             android:layout_marginLeft="20dp"
-            android:textFontWeight="500"
+            android:text="Client : "
+            android:textAppearance="@style/special_request_color"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="15dp"
+            android:textFontWeight="1000"
             android:text="Name of Cook"
-            android:textAppearance="@style/cook_name_order_payment" />
+            android:textAppearance="@style/special_request_color" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="124dp"
-            android:layout_weight="500"
-            android:clickable="true"
-            android:text="@string/check_out"
-            android:textAppearance="@style/check_out_subtotal"
-            android:textColor="@color/display_title_description" />
+            android:layout_weight="700"
+            android:text="date : 6/3/2021 "
+            android:textAppearance="@style/account_order_item" />
 
     </LinearLayout>
+
+    <include
+        layout="@layout/order_payment_cycle_under_cycle_for_dish_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
     <View
         android:layout_width="match_parent"

@@ -388,7 +388,7 @@
     </style>
 
     <style name="user_dashboard">
-        <item name="android:textSize">17sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textColor">#648E00</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -444,9 +444,9 @@
     </style>
 
     <style name="cook_user">
-        <item name="android:textSize">17sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:textColor">#648E00</item>
-        <item name="android:textStyle">normal</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="edit_profile">
@@ -469,10 +469,22 @@
 
     <style name="cook_name_order_payment">
         <item name="fontFamily">@font/roboto_regular</item>
-        <item name="lineHeight">11.5sp</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">#6A994E</item>
+        <item name="lineHeight">13sp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#888888</item>
         <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="special_request">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#606060</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="special_request_color">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#648E00</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="Theme.Noknok.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

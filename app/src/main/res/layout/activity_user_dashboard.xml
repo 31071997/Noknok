@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:elevation="25dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,11 +16,11 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="20dp"
+            android:layout_height="22dp"
             android:layout_gravity="center"
             android:layout_marginTop="11dp"
             android:fontFamily="@font/roboto_regular"
-            android:lineHeight="19.5sp"
+            android:lineHeight="25sp"
             android:text="Order View"
             android:textAppearance="@style/user_dashboard"
             android:textFontWeight="800" />
@@ -36,7 +37,7 @@
                 android:layout_marginLeft="30dp"
                 android:background="@drawable/ic_rectangle_400"
                 android:fontFamily="@font/roboto_regular"
-                android:lineHeight="19.5sp"
+                android:lineHeight="22sp"
                 android:textAlignment="center"
                 android:paddingTop="13dp"
                 android:text="Today"
@@ -50,7 +51,7 @@
                 android:layout_marginLeft="5dp"
                 android:background="@drawable/ic_rectangle_400"
                 android:fontFamily="@font/roboto_regular"
-                android:lineHeight="19.5sp"
+                android:lineHeight="22sp"
                 android:textAlignment="center"
                 android:paddingTop="13dp"
                 android:text="Tomorrow"
@@ -64,7 +65,7 @@
                 android:layout_marginLeft="5dp"
                 android:background="@drawable/ic_rectangle_400"
                 android:fontFamily="@font/roboto_regular"
-                android:lineHeight="19.5sp"
+                android:lineHeight="22sp"
                 android:textAlignment="center"
                 android:paddingTop="13dp"
                 android:text="Later"
@@ -89,7 +90,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="11dp"
             android:fontFamily="@font/roboto_regular"
-            android:lineHeight="19.5sp"
+            android:lineHeight="22sp"
             android:text="Payment"
             android:textAppearance="@style/user_dashboard"
             android:textFontWeight="800" />
@@ -118,7 +119,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="18dp"
                         android:fontFamily="@font/roboto_regular"
-                        android:lineHeight="20sp"
+                        android:lineHeight="22sp"
                         android:text="Today"
                         android:textAppearance="@style/user_dashboard"
                         android:textFontWeight="500" />
@@ -129,7 +130,7 @@
                         android:layout_marginTop="12dp"
                         android:background="@drawable/ic_rectangle_411"
                         android:fontFamily="@font/roboto_regular"
-                        android:lineHeight="19.5sp"
+                        android:lineHeight="22sp"
                         android:textAlignment="center"
                         android:paddingTop="11dp"
                         android:text="440 $"
@@ -150,7 +151,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="18dp"
                         android:fontFamily="@font/roboto_regular"
-                        android:lineHeight="20sp"
+                        android:lineHeight="22sp"
                         android:text="Week"
                         android:textAppearance="@style/user_dashboard"
                         android:textFontWeight="500" />
@@ -161,7 +162,7 @@
                         android:layout_marginTop="12dp"
                         android:background="@drawable/ic_rectangle_411"
                         android:fontFamily="@font/roboto_regular"
-                        android:lineHeight="19.5sp"
+                        android:lineHeight="22sp"
                         android:textAlignment="center"
                         android:paddingTop="11dp"
                         android:text="440 $"
@@ -182,7 +183,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="18dp"
                         android:fontFamily="@font/roboto_regular"
-                        android:lineHeight="20sp"
+                        android:lineHeight="22sp"
                         android:text="Month"
                         android:textAppearance="@style/user_dashboard"
                         android:textFontWeight="500" />
@@ -193,7 +194,7 @@
                         android:layout_marginTop="12dp"
                         android:background="@drawable/ic_rectangle_411"
                         android:fontFamily="@font/roboto_regular"
-                        android:lineHeight="19.5sp"
+                        android:lineHeight="22sp"
                         android:textAlignment="center"
                         android:paddingTop="11dp"
                         android:text="440 $"
@@ -214,7 +215,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="18dp"
                         android:fontFamily="@font/roboto_regular"
-                        android:lineHeight="20sp"
+                        android:lineHeight="22sp"
                         android:text="a/c fee"
                         android:textAppearance="@style/user_dashboard"
                         android:textFontWeight="500" />
@@ -225,7 +226,7 @@
                         android:layout_marginTop="12dp"
                         android:background="@drawable/ic_rectangle_411"
                         android:fontFamily="@font/roboto_regular"
-                        android:lineHeight="19.5sp"
+                        android:lineHeight="22sp"
                         android:textAlignment="center"
                         android:paddingTop="11dp"
                         android:text="440 $"
@@ -264,7 +265,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="11dp"
                     android:fontFamily="@font/roboto_regular"
-                    android:lineHeight="19.5sp"
+                    android:lineHeight="22sp"
                     android:text="Invest"
                     android:textAppearance="@style/user_dashboard"
                     android:textFontWeight="800" />
@@ -289,7 +290,7 @@
                 android:layout_marginLeft="15dp"
                 android:background="@drawable/ic_rectangle_418"
                 android:fontFamily="@font/roboto_regular"
-                android:lineHeight="19.5sp"
+                android:lineHeight="22sp"
                 android:textAlignment="center"
                 android:paddingTop="11dp"
                 android:text="13000 $"
@@ -312,7 +313,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="11dp"
                 android:fontFamily="@font/roboto_regular"
-                android:lineHeight="19.5sp"
+                android:lineHeight="22sp"
                 android:text="Gain"
                 android:textAppearance="@style/user_dashboard"
                 android:textFontWeight="800" />
@@ -324,7 +325,7 @@
                 android:layout_marginLeft="15dp"
                 android:background="@drawable/ic_rectangle_418"
                 android:fontFamily="@font/roboto_regular"
-                android:lineHeight="19.5sp"
+                android:lineHeight="22sp"
                 android:textAlignment="center"
                 android:paddingTop="11dp"
                 android:text="26000 $"
@@ -349,7 +350,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="11dp"
             android:fontFamily="@font/roboto_regular"
-            android:lineHeight="19.5sp"
+            android:lineHeight="22sp"
             android:text="Add Dish"
             android:textAppearance="@style/user_dashboard"
             android:textFontWeight="800" />
@@ -360,7 +361,7 @@
             android:layout_marginLeft="285dp"
             android:layout_marginTop="11dp"
             android:fontFamily="@font/roboto_regular"
-            android:lineHeight="19.5sp"
+            android:lineHeight="22sp"
             android:text=">"
             android:textAppearance="@style/user_dashboard"
             android:textFontWeight="1000" />
@@ -380,7 +381,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="11dp"
             android:fontFamily="@font/roboto_regular"
-            android:lineHeight="19.5sp"
+            android:lineHeight="22sp"
             android:text="Add Offer"
             android:textAppearance="@style/user_dashboard"
             android:textFontWeight="800" />
@@ -391,7 +392,7 @@
             android:layout_marginLeft="280dp"
             android:layout_marginTop="11dp"
             android:fontFamily="@font/roboto_regular"
-            android:lineHeight="19.5sp"
+            android:lineHeight="22sp"
             android:text=">"
             android:textAppearance="@style/user_dashboard"
             android:textFontWeight="1000" />
@@ -411,7 +412,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="11dp"
             android:fontFamily="@font/roboto_regular"
-            android:lineHeight="19.5sp"
+            android:lineHeight="22sp"
             android:text="Special Request"
             android:textAppearance="@style/user_dashboard"
             android:textFontWeight="800" />
@@ -422,7 +423,7 @@
             android:layout_marginLeft="230dp"
             android:layout_marginTop="11dp"
             android:fontFamily="@font/roboto_regular"
-            android:lineHeight="19.5sp"
+            android:lineHeight="22sp"
             android:text=">"
             android:textAppearance="@style/user_dashboard"
             android:textFontWeight="1000" />

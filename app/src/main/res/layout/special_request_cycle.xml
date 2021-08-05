@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:elevation="25dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="30dp"
+            android:text="Client : "
+            android:textAppearance="@style/special_request"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="5dp"
+            android:text="Name of Client"
+            android:textAppearance="@style/special_request"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="30dp"
+            android:text="Recipe Name : "
+            android:textAppearance="@style/special_request"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="5dp"
+            android:text="Name of Recipe"
+            android:textAppearance="@style/special_request_color"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="30dp"
+            android:text="Portion : "
+            android:textAppearance="@style/special_request"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="5dp"
+            android:text="Amount of Portion"
+            android:textAppearance="@style/special_request"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textFontWeight="1000"
+        android:layout_marginTop="10dp"
+        android:lineHeight="12sp"
+        android:layout_marginLeft="30dp"
+        android:text="Sample Image : "
+        android:textAppearance="@style/special_request"
+        />
+
+    <View
+        android:layout_width="253dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/unnamed_3_1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="30dp"
+            android:text="Recipe Details : "
+            android:textAppearance="@style/special_request"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="5dp"
+            android:text="Amount of Portionjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+            android:textAppearance="@style/special_request"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="30dp"
+            android:text="Delivery Time : "
+            android:textAppearance="@style/special_request"
+            android:textColor="#F92C2C"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="5dp"
+            android:text="Date and Time"
+            android:textAppearance="@style/special_request"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="30dp"
+            android:text="Location : "
+            android:textAppearance="@style/special_request"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="5dp"
+            android:text="Location Details"
+            android:textAppearance="@style/special_request"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:layout_marginLeft="30dp"
+            android:text="Add Price : "
+            android:textAppearance="@style/special_request"
+            android:textColor="#F92C2C"
+            />
+        <TextView
+            android:layout_width="73dp"
+            android:layout_height="21dp"
+            android:textFontWeight="1000"
+            android:lineHeight="12sp"
+            android:paddingTop="2dp"
+            android:paddingLeft="18dp"
+            android:layout_marginLeft="5dp"
+            android:text="1200"
+            android:textAppearance="@style/special_request"
+            android:textColor="#000000"
+            android:background="@drawable/ic_rectangle_428"
+            />
+
+        <Button
+            android:layout_width="73dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="43dp"
+            android:background="@drawable/ic_rectangle_429"
+            android:text="Accept"
+            android:textFontWeight="1000"
+            android:textAppearance="@style/cuisine_button"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_rectangle_430"
+            android:text="Cancel Request"
+            android:textFontWeight="1000"
+            android:textAppearance="@style/cuisine_button"/>
+    </LinearLayout>
+
+</LinearLayout>
