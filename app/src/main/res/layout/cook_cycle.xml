@@ -5,7 +5,8 @@
     android:layout_marginLeft="31dp"
     android:layout_marginTop="33dp"
     android:layout_marginRight="31dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:elevation="25dp">
     <include
         layout="@layout/cook_profile_head"
         android:layout_width="match_parent"

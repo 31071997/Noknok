@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".HomeDishDisplay">
+    tools:context=".HomeDishDisplay"
+    android:elevation="25dp">
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"

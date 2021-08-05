@@ -7,7 +7,9 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+    <color name="black1">#000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="or">#646060</color>
     <color name="white_grey">#A1A1A1</color>
     <color name="edit">#EE6055</color>
     <color name="delivery_description">#FA800000</color>
@@ -25,4 +27,27 @@
     <color name="cart_description">#606060</color>
     <color name="total">#2364C7</color>
     <color name="request_rule">#808080</color>
+    <color name="forget">#FF3131</color>
+    <color name="sign_up">#FB6D6D</color>
+    <color name="menu">#BD000000</color>
+    <color name="login_co">#BD000000</color>
+    <color name="click">#232323</color>
+    <color name="no_order">#E47373</color>
+    <color name="date">#1E1E1E</color>
+    <color name="footer">#97C037</color>
+    <color name="cart_des">#FC514F4F</color>
+    <color name="content_des">#565656</color>
+    <color name="dashboard">#648E00</color>
+    <color name="search">#CC648E00</color>
+    <color name="item">#545454</color>
+    <color name="item_desc">#626262</color>
+    <color name="food_amount">#F5FF9315</color>
+    <color name="final_desc">#F5514F4F</color>
+    <color name="profile_edit">#797979</color>
+    <color name="payment">#888888</color>
+    <color name="noknok">#A7C957</color>
+    <color name="notification">#EFEFEF</color>
+    <color name="edittext">#A6A6A6</color>
+    <color name="search_bar">#7E7E7E</color>
+    <color name="special_request">#F92C2C</color>
 </resources>

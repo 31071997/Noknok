@@ -50,7 +50,7 @@
             android:layout_marginLeft="30dp"
             android:text="Delivery Time : "
             android:textAppearance="@style/special_request"
-            android:textColor="#F92C2C"
+            android:textColor="@color/special_request"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -70,7 +70,7 @@
             android:layout_marginLeft="140dp"
             android:text="Total : "
             android:textAppearance="@style/special_request"
-            android:textColor="#F92C2C"
+            android:textColor="@color/special_request"
             />
         <TextView
             android:layout_width="wrap_content"

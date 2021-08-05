@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/fragment_bg"
     android:orientation="vertical"
-    tools:context=".ui.date_catagory.DateCatagoryFragment">
+    tools:context=".ui.date_catagory.DateCatagoryFragment"
+    android:elevation="25dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

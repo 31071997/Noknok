@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:elevation="25dp">
 
     <TextView
         android:id="@+id/search"
@@ -35,10 +36,10 @@
         android:inputType="text"
         android:shadowColor="hsla(0, 0%, 0%, 0.25)"
         android:lineHeight="18sp"
-        android:textColor="#7E7E7E"
+        android:textColor="@color/search_bar"
         android:textFontWeight="700"
         android:elevation="4dp"
-        android:fillColor="#FFFFFF"
+        android:fillColor="@color/white"
         android:text="Search for cooks or dishes"
         android:textAppearance="@style/search_cook_dish" />
 
